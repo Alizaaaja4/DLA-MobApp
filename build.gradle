@@ -1,0 +1,23 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        // jcenter() // <--- Pastikan baris ini DIHAPUS atau DIKOMENTARI
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2' // Biarkan tetap 4.2.2
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral() // <--- Pastikan baris ini ADA
+        // jcenter() // <--- Pastikan baris ini DIHAPUS atau DIKOMENTARI
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

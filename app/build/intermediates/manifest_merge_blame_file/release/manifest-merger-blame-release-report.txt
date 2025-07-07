@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rfid.hf"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:7:5-81
+11-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:8:5-80
+12-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:8:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:9:5-67
+13-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:10:5-75
+14-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:10:22-72
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:11:5-68
+15-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:11:22-65
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:12:5-79
+16-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+17-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:13:5-73
+17-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:13:22-70
+18    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+18-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:14:5-89
+18-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:14:22-86
+19
+20    <application
+20-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:16:5-49:19
+21        android:allowBackup="true"
+21-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:17:9-35
+22        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+22-->[com.android.support:support-compat:28.0.0] C:\Users\zoudeyong\.gradle\caches\transforms-2\files-2.1\6f81025bcc413a318d3343580ec76047\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+23        android:icon="@drawable/ic_launcher"
+23-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:18:9-45
+24        android:label="@string/app_name"
+24-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:19:9-41
+25        android:requestLegacyExternalStorage="true"
+25-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:20:9-52
+26        android:theme="@style/AppTheme" >
+26-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:21:9-40
+27        <activity
+27-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:22:9-32:20
+28            android:name="com.rfid.hf.Connect232"
+28-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:23:13-50
+29            android:label="@string/app_name"
+29-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:24:13-45
+30            android:theme="@style/Theme.AppCompat.NoActionBar"
+30-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:25:13-63
+31            android:windowSoftInputMode="adjustPan" >
+31-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:26:13-52
+32            <intent-filter>
+32-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:27:13-31:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:28:17-69
+33-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:28:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:30:17-77
+35-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:30:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.rfid.hf.MainHFActivity" >
+38-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:33:9-34:20
+38-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:33:19-60
+39        </activity>
+40        <activity android:name="com.rfid.hf.ScanView" >
+40-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:35:9-36:20
+40-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:35:19-54
+41        </activity>
+42        <activity android:name="com.rfid.hf.ScanMode" >
+42-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:37:9-38:20
+42-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:37:19-54
+43        </activity>
+44        <activity android:name="com.rfid.hf.ScanModeGroup" >
+44-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:39:9-40:20
+44-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:39:19-59
+45        </activity>
+46        <activity
+46-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:41:9-44:20
+47            android:name="com.rfid.hf.RW_Activity"
+47-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:42:13-51
+48            android:label="@string/title_activity_rw_" >
+48-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:43:13-55
+49        </activity>
+50
+51        <service
+51-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:45:9-48:47
+52            android:name="com.rfid.hf.MyService"
+52-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:46:13-38
+53            android:enabled="true"
+53-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:47:13-35
+54            android:exported="true" />
+54-->E:\Android Demo\CLient group\Client group-D\sq53c\DEMO-SOURCE\RFIDDemo(0.5W) - 20211020\app\src\main\AndroidManifest.xml:48:13-36
+55    </application>
+56
+57</manifest>

@@ -1,0 +1,3 @@
+// settings.gradle
+rootProject.name = "RFIDDemo(0.5W) - 20230302(keypress)"
+include ':app'

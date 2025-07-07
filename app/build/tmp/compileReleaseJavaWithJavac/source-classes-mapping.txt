@@ -1,0 +1,53 @@
+com/rfid/hf/ScanMode.java
+ com.rfid.hf.ScanMode
+ com.rfid.hf.ScanMode$1
+ com.rfid.hf.ScanMode$2
+com/rfid/serialport/SerialPort.java
+ com.rfid.serialport.SerialPort
+com/rfid/hf/MyService.java
+ com.rfid.hf.MyService
+ com.rfid.hf.MyService$1
+ com.rfid.hf.MyService$LocalBinder
+com/rfid/hf/HfData.java
+ com.rfid.hf.HfData
+com/rfid/hf/RW_Activity.java
+ com.rfid.hf.RW_Activity
+ com.rfid.hf.RW_Activity$1
+ com.rfid.hf.RW_Activity$10
+ com.rfid.hf.RW_Activity$11
+ com.rfid.hf.RW_Activity$12
+ com.rfid.hf.RW_Activity$13
+ com.rfid.hf.RW_Activity$2
+ com.rfid.hf.RW_Activity$3
+ com.rfid.hf.RW_Activity$4
+ com.rfid.hf.RW_Activity$5
+ com.rfid.hf.RW_Activity$6
+ com.rfid.hf.RW_Activity$7
+ com.rfid.hf.RW_Activity$8
+ com.rfid.hf.RW_Activity$9
+com/rfid/serialport/SerialPortFinder.java
+ com.rfid.serialport.SerialPortFinder
+ com.rfid.serialport.SerialPortFinder$Driver
+com/rfid/hf/BuildConfig.java
+ com.rfid.hf.BuildConfig
+com/rfid/hf/Connect232.java
+ com.rfid.hf.Connect232
+ com.rfid.hf.Connect232$1
+ com.rfid.hf.Connect232$ComOnItemSelectedListener
+ com.rfid.hf.Connect232$VirtualKeyListenerBroadcastReceiver
+com/rfid/hf/MainHFActivity.java
+ com.rfid.hf.MainHFActivity
+com/rfid/trans/ReaderBase.java
+ com.rfid.trans.ReaderBase
+com/rfid/hf/hflib.java
+ com.rfid.hf.hflib
+com/rfid/hf/ScanModeGroup.java
+ com.rfid.hf.ScanModeGroup
+com/rfid/hf/Util.java
+ com.rfid.hf.Util
+com/rfid/hf/ScanView.java
+ com.rfid.hf.ScanView
+ com.rfid.hf.ScanView$1
+ com.rfid.hf.ScanView$2
+ com.rfid.hf.ScanView$3
+ com.rfid.hf.ScanView$4
