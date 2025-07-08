@@ -30,6 +30,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -39,9 +40,9 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 	
 	private String mode;
 	private Map<String,Integer> data;
-	Button btclear;
-	Button btStart;
-	Button btStop;
+	ImageButton btclear;
+	ImageButton btStart;
+	ImageButton btStop;
 	ListView listView;
 	TextView txNum;
 	TextView txTime;
@@ -50,6 +51,8 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 	private Timer timer;
 	private Handler mHandler;
 	private boolean isCanceled = true;
+	private boolean isReading = false;
+	private boolean isStopping = false;
 
 	private static final int SCAN_INTERVAL = 10;
 	private static final int MSG_UPDATE_LISTVIEW = 0;
@@ -108,14 +111,13 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 			txTime = (TextView)findViewById(R.id.textTime);
 			txCount = (TextView)findViewById(R.id.textCount);
 
-			
-			btStart = (Button)findViewById(R.id.btn_startInventory);
+			btStart = (ImageButton)findViewById(R.id.btn_startInventory);
 			btStart.setOnClickListener(this);
 			
-			btStop = (Button)findViewById(R.id.btn_stopInventory);
+			btStop = (ImageButton)findViewById(R.id.btn_stopInventory);
 			btStop.setOnClickListener(this);
 
-			btclear = (Button)findViewById(R.id.btn_clearList);
+			btclear = (ImageButton)findViewById(R.id.btn_clearList);
 			btclear.setOnClickListener(this);
 
 			listView = (ListView)findViewById(R.id.list_inventory_record);
@@ -182,12 +184,16 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 	
 	@Override
 	protected void onResume() {
-		// TODO Auto-generated method stub
 		super.onResume();
+		isReading = false;
+		isStopping = false;
 		btStart.setEnabled(true);
 		btStop.setEnabled(false);
-
+		btStart.setImageResource(R.drawable.btn_before_start_inventory);
+		btStop.setImageResource(R.drawable.btn_before_stop_inventory);
+		btclear.setImageResource(R.drawable.btn_before_clear);
 	}
+
 
 	private void StartRead()
 	{
@@ -243,27 +249,39 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 	{
 		isCanceled = true;
 		mWorking =false;
+		btStart.setImageResource(R.drawable.btn_before_start_inventory);
 	}
+
 	@Override
 	public void onClick(View arg0) {
-		if(arg0==btStart)
-		{
+		if(arg0==btStart) {
 			StartRead();
-		}
-		else if(arg0==btStop)
-		{
+			isReading = true;
+			isStopping = false;
+			btStart.setImageResource(R.drawable.btn_after_start_inventory);
+			btStop.setImageResource(R.drawable.btn_before_stop_inventory);
+		} else if(arg0==btStop) {
 			StopRead();
-
-		}
-		else if(arg0==btclear)
-		{
+			isReading = false;
+			isStopping = true;
+			btStart.setImageResource(R.drawable.btn_before_start_inventory);
+			btStop.setImageResource(R.drawable.btn_after_stop_inventory);
+		} else if(arg0==btclear) {
 			Count=0;
 			Number=0;
 			ScanTime=0;
 			mHandler.removeMessages(MSG_UPDATE_LISTVIEW);
 			mHandler.sendEmptyMessage(MSG_UPDATE_LISTVIEW);
-		}
 
+			btclear.setImageResource(R.drawable.btn_after_clear);
+			btStart.setImageResource(R.drawable.btn_before_start_inventory);
+			btStop.setImageResource(R.drawable.btn_before_stop_inventory);
+
+			btclear.postDelayed(() -> btclear.setImageResource(R.drawable.btn_before_clear), 1000);
+
+			isReading = false;
+			isStopping = false;
+		}
 	}
 
 	private void AddUID(String UIDINfo)

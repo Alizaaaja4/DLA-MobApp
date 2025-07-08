@@ -4,68 +4,75 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:keepScreenOn="true"
+    android:background="@color/soft_white"
     android:descendantFocusability="blocksDescendants"
     android:orientation="vertical" >
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal" >
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_startInventory"
-            android:background="@drawable/color_button_selector"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
-            android:layout_marginLeft="20.0sp"
-            android:layout_marginRight="20.0sp"
-            android:layout_marginBottom="5.0sp"
-            android:text="@string/btStart"
-            android:textSize="15sp" />
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/btn_before_start_inventory"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:clickable="true" />
 
-        <Button
+        <ImageButton
             android:id="@+id/btn_stopInventory"
-            android:background="@drawable/color_button_selector"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
-            android:layout_marginLeft="20.0sp"
-            android:layout_marginRight="20.0sp"
-            android:layout_marginBottom="5.0sp"
-            android:text="@string/btStop"
-            android:textSize="15sp" />
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/btn_before_stop_inventory"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:clickable="true" />
 
-
-
-        <Button
+        <ImageButton
             android:id="@+id/btn_clearList"
-            android:background="@drawable/color_button_selector"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
             android:layout_weight="1"
-            android:layout_marginLeft="20.0sp"
-            android:layout_marginRight="20.0sp"
-            android:layout_marginBottom="5.0sp"
-            android:text="@string/btClear"
-            android:textSize="15sp" />
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/btn_before_clear"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:clickable="true" />
+
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/list_inventory"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:textStyle="bold"
                 android:text="@string/Count" />
 
             <TextView
@@ -74,11 +81,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#CD0000"
+                android:textStyle="bold"
                 android:text="0" />
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:text="@string/Label" />
 
             <TextView
@@ -87,11 +96,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#CD0000"
+                android:textStyle="bold"
                 android:text="0" />
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:text="@string/Time" />
 
             <TextView
@@ -100,13 +111,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:textColor="#CD0000"
+                android:textStyle="bold"
                 android:text="0" />
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2dp"
-            android:background="#DCDCDC"
+            android:background="#676767"
             android:orientation="vertical" >
         </LinearLayout>
         <include
@@ -117,7 +129,7 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2dp"
-            android:background="#DCDCDC"
+            android:background="#676767"
             android:orientation="vertical" >
         </LinearLayout>
 
@@ -128,9 +140,9 @@
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@drawable/list_bg"
+            android:background="@color/soft_white"
             android:cacheColorHint="@android:color/transparent"
-            android:divider="#f9b68b"
+            android:divider="#676767"
             android:dividerHeight="1.0dp"
             android:fadingEdge="none"
             android:scrollbars="vertical" >
