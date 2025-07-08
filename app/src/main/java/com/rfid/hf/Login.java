@@ -42,9 +42,13 @@ public class Login extends AppCompatActivity {
         initNumberButton(R.id.btn_8, 8);
         initNumberButton(R.id.btn_9, 9);
 
-        // (Optional) tombol back
+        // Tombol back: kembali ke WelcomeActivity
         ImageButton btnBack = findViewById(R.id.btn_back);
-        btnBack.setOnClickListener(v -> finish());
+        btnBack.setOnClickListener(v -> {
+            Intent intent = new Intent(Login.this, Welcome.class);
+            startActivity(intent);
+            finish();
+        });
     }
 
     private void initNumberButton(int buttonId, int number) {
@@ -78,7 +82,7 @@ public class Login extends AppCompatActivity {
         }
 
         if (pinBuilder.toString().equals(CORRECT_PIN)) {
-            // PIN benar → pindah ke MainHFActivity
+            // PIN benar → pindah ke MenuActivity
             Intent intent = new Intent(Login.this, MenuActivity.class);
             startActivity(intent);
             finish();

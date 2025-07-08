@@ -37,7 +37,7 @@
 19-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:15:22-86
 20
 21    <application
-21-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:17:5-80:19
+21-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:17:5-85:19
 22        android:allowBackup="true"
 22-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:18:9-35
 23        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
@@ -114,63 +114,73 @@
 65            android:theme="@style/Theme.AppCompat.NoActionBar" />
 65-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:52:13-63
 66
-67        <!-- Menu HF -->
+67        <!-- Menu Help/ Guide -->
 68        <activity
-68-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:56:9-57:39
-69            android:name="com.rfid.hf.MainHFActivity"
-69-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:56:19-60
-70            android:exported="true" />
-70-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:57:13-36
-71
-72        <!-- Activity lainnya -->
-73        <activity
-73-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:60:9-65:39
-74            android:name="com.rfid.hf.Connect232"
-74-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:61:13-50
-75            android:exported="true"
-75-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:65:13-36
-76            android:label="@string/app_name"
-76-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:62:13-45
-77            android:theme="@style/Theme.AppCompat.NoActionBar"
-77-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:63:13-63
-78            android:windowSoftInputMode="adjustPan" />
-78-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:64:13-52
+68-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:56:9-58:39
+69            android:name="com.rfid.hf.HelpGuide"
+69-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:56:19-55
+70            android:exported="true"
+70-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:58:13-36
+71            android:theme="@style/Theme.AppCompat.NoActionBar" />
+71-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:57:13-63
+72
+73        <!-- Menu HF -->
+74        <activity
+74-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:61:9-62:39
+75            android:name="com.rfid.hf.MainHFActivity"
+75-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:61:19-60
+76            android:exported="true" />
+76-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:62:13-36
+77
+78        <!-- Activity lainnya -->
 79        <activity
-79-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:67:9-81
-80            android:name="com.rfid.hf.ScanView"
-80-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:67:19-54
-81            android:exported="true" />
-81-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:67:55-78
-82        <activity
-82-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:68:9-81
-83            android:name="com.rfid.hf.ScanMode"
-83-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:68:19-54
-84            android:exported="true" />
-84-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:68:55-78
+79-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:65:9-70:39
+80            android:name="com.rfid.hf.Connect232"
+80-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:66:13-50
+81            android:exported="true"
+81-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:70:13-36
+82            android:label="@string/app_name"
+82-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:67:13-45
+83            android:theme="@style/Theme.AppCompat.NoActionBar"
+83-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:68:13-63
+84            android:windowSoftInputMode="adjustPan" />
+84-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:69:13-52
 85        <activity
-85-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:69:9-86
-86            android:name="com.rfid.hf.ScanModeGroup"
-86-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:69:19-59
+85-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:72:9-81
+86            android:name="com.rfid.hf.ScanView"
+86-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:72:19-54
 87            android:exported="true" />
-87-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:69:60-83
+87-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:72:55-78
 88        <activity
-88-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:70:9-72:39
-89            android:name="com.rfid.hf.RW_Activity"
-89-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:70:19-57
-90            android:exported="true"
-90-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:72:13-36
-91            android:label="@string/title_activity_rw_" />
-91-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:71:13-55
-92
-93        <!-- Service -->
-94        <service
-94-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:75:9-78:39
-95            android:name="com.rfid.hf.MyService"
-95-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:76:13-38
-96            android:enabled="true"
-96-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:77:13-35
-97            android:exported="true" />
-97-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:78:13-36
-98    </application>
-99
-100</manifest>
+88-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:73:9-81
+89            android:name="com.rfid.hf.ScanMode"
+89-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:73:19-54
+90            android:exported="true" />
+90-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:73:55-78
+91        <activity
+91-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:74:9-86
+92            android:name="com.rfid.hf.ScanModeGroup"
+92-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:74:19-59
+93            android:exported="true" />
+93-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:74:60-83
+94        <activity
+94-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:75:9-77:39
+95            android:name="com.rfid.hf.RW_Activity"
+95-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:75:19-57
+96            android:exported="true"
+96-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:77:13-36
+97            android:label="@string/title_activity_rw_" />
+97-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:76:13-55
+98
+99        <!-- Service -->
+100        <service
+100-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:80:9-83:39
+101            android:name="com.rfid.hf.MyService"
+101-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:81:13-38
+102            android:enabled="true"
+102-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:82:13-35
+103            android:exported="true" />
+103-->D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\AndroidManifest.xml:83:13-36
+104    </application>
+105
+106</manifest>

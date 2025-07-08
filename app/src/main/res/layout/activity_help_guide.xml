@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.rfid.hf.SplashActivity">
+
+    <!-- Background Gambar -->
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_main" />
+
+    <!-- Tombol Back -->
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        android:src="@drawable/btn_back"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="Back Button" />
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_back"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="28dp"
+        android:text="@string/help_guide"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Slogan -->
+    <TextView
+        android:id="@+id/tv_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_judul"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/slogan_help_guide"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <!-- List Card Scroll -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Card 1 -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="10dp"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:id="@+id/card1_container"
+                    android:onClick="toggleCard1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:padding="16dp"
+                    tools:ignore="OnClick">
+
+                    <!-- Judul & deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="How to use RFID Scan"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Read RFID tags from books for identifications"
+                        android:textSize="14sp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <!-- Bagian detail yang muncul saat expand -->
+                    <LinearLayout
+                        android:id="@+id/card1_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="12dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Configure the RFID Scanner (Type, Serial Port, and Baud Rate)."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Next, configure the Version and Power settings."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Then, navigate to the 'Read/Write' tab to set up the results."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4. Finally, go to the 'Inventory' tab and click 'Start Inventory.'"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="5. Point the scanner at the code. Once finished, click 'Stop Inventory.'"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="6. To clear the results, click 'Clear.'"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="To Scan Again:"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Repeat the steps above."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!-- Card 2 -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="10dp"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:id="@+id/card2_container"
+                    android:onClick="toggleCard2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:padding="16dp"
+                    tools:ignore="OnClick">
+
+                    <!-- Judul & deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Stock Opname"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Check book availability and detect missing books"
+                        android:textSize="14sp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <!-- Bagian detail yang muncul saat expand -->
+                    <LinearLayout
+                        android:id="@+id/card2_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="12dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Before using this feature, ensure you have performed an RFID scan."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. The results of the scan will be added to the book list."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Next, you can click to download the 'CSV File'."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="To Download Again:"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. Repeat the RFID scan steps."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Then, follow the steps above."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!-- Card 3 -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="10dp"
+                android:clickable="true">
+
+                <LinearLayout
+                    android:id="@+id/card3_container"
+                    android:onClick="toggleCard3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/white"
+                    android:padding="16dp"
+                    tools:ignore="OnClick">
+
+                    <!-- Judul & deskripsi -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Generate Barcode"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create and donwload barcodes using book title and serial"
+                        android:textSize="14sp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@android:color/darker_gray" />
+
+                    <!-- Bagian detail yang muncul saat expand -->
+                    <LinearLayout
+                        android:id="@+id/card3_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="12dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. On the 'Generate Barcode' tab, enter the book title and serial number."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Next, you can click 'Generate.'"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Finally, click to download the 'PNG' file."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Searching Book:"
+                            android:textStyle="bold"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1. On the 'Searching Book' tab, enter the book title or serial number."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2. Next, you can click 'Search.'"
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black"
+                            android:layout_marginBottom="4dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3. Finally, it will display the book information."
+                            android:textSize="14sp"
+                            android:textColor="@android:color/black" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Logo bawah -->
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_tip" />
+
+</RelativeLayout>

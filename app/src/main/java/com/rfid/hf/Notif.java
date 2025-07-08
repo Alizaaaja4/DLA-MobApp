@@ -12,9 +12,12 @@ public class Notif extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notif);
 
-        // ntrr logic disini kek nya
-        // (Optional) tombol back
+        // Tombol back: kembali ke MenuActivity
         ImageButton btnBack = findViewById(R.id.btn_back);
-        btnBack.setOnClickListener(v -> finish());
+        btnBack.setOnClickListener(v -> {
+            Intent intent = new Intent(Notif.this, MenuActivity.class);
+            startActivity(intent);
+            finish();
+        });
     }
 }

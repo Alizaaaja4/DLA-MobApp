@@ -179,6 +179,46 @@
         </attr>
     </declare-styleable><style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:cardview-v7:28.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\e476e0dd04b5343b91450d154c8a112f\cardview-v7-28.0.0\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:cardview-v7:28.0.0" from-dependency="true" generated-set="com.android.support:cardview-v7:28.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\e476e0dd04b5343b91450d154c8a112f\cardview-v7-28.0.0\res"><file path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\e476e0dd04b5343b91450d154c8a112f\cardview-v7-28.0.0\res\values\values.xml" qualifiers=""><attr format="reference" name="cardViewStyle"/><color name="cardview_dark_background">#FF424242</color><color name="cardview_light_background">#FFFFFFFF</color><color name="cardview_shadow_end_color">#03000000</color><color name="cardview_shadow_start_color">#37000000</color><declare-styleable name="CardView">
+        
+        <attr format="color" name="cardBackgroundColor"/>
+        
+        <attr format="dimension" name="cardCornerRadius"/>
+        
+        <attr format="dimension" name="cardElevation"/>
+        
+        <attr format="dimension" name="cardMaxElevation"/>
+        
+        <attr format="boolean" name="cardUseCompatPadding"/>
+        
+        <attr format="boolean" name="cardPreventCornerOverlap"/>
+        
+        <attr format="dimension" name="contentPadding"/>
+        
+        <attr format="dimension" name="contentPaddingLeft"/>
+        
+        <attr format="dimension" name="contentPaddingRight"/>
+        
+        <attr format="dimension" name="contentPaddingTop"/>
+        
+        <attr format="dimension" name="contentPaddingBottom"/>
+        
+        <attr name="android:minWidth"/>
+        
+        <attr name="android:minHeight"/>
+    </declare-styleable><dimen name="cardview_compat_inset_shadow">1dp</dimen><dimen name="cardview_default_elevation">2dp</dimen><dimen name="cardview_default_radius">2dp</dimen><style name="Base.CardView" parent="android:Widget">
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style><style name="CardView" parent="Base.CardView">
+    </style><style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style><style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style></file><file path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\e476e0dd04b5343b91450d154c8a112f\cardview-v7-28.0.0\res\values-v23\values-v23.xml" qualifiers="v23"><style name="CardView" parent="Base.CardView">
+        <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
     </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:appcompat-v7:28.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\c736e09b9b8b0f5b17e0f48c980de4cc\appcompat-v7-28.0.0\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.android.support:appcompat-v7:28.0.0" from-dependency="true" generated-set="com.android.support:appcompat-v7:28.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\c736e09b9b8b0f5b17e0f48c980de4cc\appcompat-v7-28.0.0\res"><file path="C:\Users\allzanr\.gradle\caches\transforms-2\files-2.1\c736e09b9b8b0f5b17e0f48c980de4cc\appcompat-v7-28.0.0\res\values\values.xml" qualifiers=""><attr format="reference" name="drawerArrowStyle"/><attr format="dimension" name="height"/><attr format="boolean" name="isLightTheme"/><attr format="string" name="title"/><bool name="abc_action_bar_embed_tabs">true</bool><bool name="abc_allow_stacked_button_bar">false</bool><bool name="abc_config_actionMenuItemAllCaps">true</bool><color name="abc_input_method_navigation_guard">@android:color/black</color><color name="abc_search_url_text_normal">#7fa87f</color><color name="abc_search_url_text_pressed">@android:color/black</color><color name="abc_search_url_text_selected">@android:color/black</color><color name="accent_material_dark">@color/material_deep_teal_200</color><color name="accent_material_light">@color/material_deep_teal_500</color><color name="background_floating_material_dark">@color/material_grey_800</color><color name="background_floating_material_light">@android:color/white</color><color name="background_material_dark">@color/material_grey_850</color><color name="background_material_light">@color/material_grey_50</color><color name="bright_foreground_disabled_material_dark">#80ffffff</color><color name="bright_foreground_disabled_material_light">#80000000</color><color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color><color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color><color name="bright_foreground_material_dark">@android:color/white</color><color name="bright_foreground_material_light">@android:color/black</color><color name="button_material_dark">#ff5a595b</color><color name="button_material_light">#ffd6d7d7</color><color name="dim_foreground_disabled_material_dark">#80bebebe</color><color name="dim_foreground_disabled_material_light">#80323232</color><color name="dim_foreground_material_dark">#ffbebebe</color><color name="dim_foreground_material_light">#ff323232</color><color name="error_color_material_dark">#ff7043</color><color name="error_color_material_light">#ff5722</color><color name="foreground_material_dark">@android:color/white</color><color name="foreground_material_light">@android:color/black</color><color name="highlighted_text_material_dark">#6680cbc4</color><color name="highlighted_text_material_light">#66009688</color><color name="material_blue_grey_800">#ff37474f</color><color name="material_blue_grey_900">#ff263238</color><color name="material_blue_grey_950">#ff21272b</color><color name="material_deep_teal_200">#ff80cbc4</color><color name="material_deep_teal_500">#ff009688</color><color name="material_grey_100">#fff5f5f5</color><color name="material_grey_300">#ffe0e0e0</color><color name="material_grey_50">#fffafafa</color><color name="material_grey_600">#ff757575</color><color name="material_grey_800">#ff424242</color><color name="material_grey_850">#ff303030</color><color name="material_grey_900">#ff212121</color><color name="primary_dark_material_dark">@android:color/black</color><color name="primary_dark_material_light">@color/material_grey_600</color><color name="primary_material_dark">@color/material_grey_900</color><color name="primary_material_light">@color/material_grey_100</color><color name="primary_text_default_material_dark">#ffffffff</color><color name="primary_text_default_material_light">#de000000</color><color name="primary_text_disabled_material_dark">#4Dffffff</color><color name="primary_text_disabled_material_light">#39000000</color><color name="ripple_material_dark">#33ffffff</color><color name="ripple_material_light">#1f000000</color><color name="secondary_text_default_material_dark">#b3ffffff</color><color name="secondary_text_default_material_light">#8a000000</color><color name="secondary_text_disabled_material_dark">#36ffffff</color><color name="secondary_text_disabled_material_light">#24000000</color><color name="switch_thumb_disabled_material_dark">#ff616161</color><color name="switch_thumb_disabled_material_light">#ffbdbdbd</color><color name="switch_thumb_normal_material_dark">#ffbdbdbd</color><color name="switch_thumb_normal_material_light">#fff1f1f1</color><color name="tooltip_background_dark">#e6616161</color><color name="tooltip_background_light">#e6FFFFFF</color><declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
@@ -2668,7 +2708,7 @@
         <flag name="chains" value="4"/>
         <flag name="dimensions" value="8"/>
         <flag name="groups" value="32"/>
-    </attr><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\rs\debug"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res"><file name="a" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\a.png" qualifiers="hdpi-v4" type="drawable"/><file name="back" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\back.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_default_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_default_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_off" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_check_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_on" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_check_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_left" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_left.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_left_down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_left_down.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_right" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_right.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_right_down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_right_down.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_disenabled_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_disenabled_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_get_started" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_get_started.png" qualifiers="hdpi-v4" type="drawable"/><file name="button_press_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_press_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="check_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\check_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="color_button_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\color_button_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="color_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\color_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\down.png" qualifiers="hdpi-v4" type="drawable"/><file name="editbox_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\editbox_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gradient_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\gradient_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="icon_popupwin_menu_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\icon_popupwin_menu_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="left" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\left.png" qualifiers="hdpi-v4" type="drawable"/><file name="list_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="list_bg_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_bg_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="list_item_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_item_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="logo_tip" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\logo_tip.png" qualifiers="hdpi-v4" type="drawable"/><file name="menu_icon" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\menu_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_background_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_background_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_click" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_click.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_disenabled" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_disenabled.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_checked" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_not_checked" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_not_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="readonly_editbox_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\readonly_editbox_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="right" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\right.png" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="title_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\title_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="up" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_connect232" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_connect232.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_rw_data" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_rw_data.xml" qualifiers="" type="layout"/><file name="activity_splash" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="listinfo_items" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\listinfo_items.xml" qualifiers="" type="layout"/><file name="listtag_items" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\listtag_items.xml" qualifiers="" type="layout"/><file name="query" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\query.xml" qualifiers="" type="layout"/><file name="scan_view" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\scan_view.xml" qualifiers="" type="layout"/><file name="activity_mainsad" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\activity_mainsad.xml" qualifiers="" type="menu"/><file name="connect232" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\connect232.xml" qualifiers="" type="menu"/><file name="main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="rw_" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\rw_.xml" qualifiers="" type="menu"/><file name="scan_new" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\raw\scan_new.ogg" qualifiers="" type="raw"/><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\colors-old.xml" qualifiers=""><color name="divide">#000000</color><color name="epc_selected">#11000000</color></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\colors.xml" qualifiers=""><color name="transparent_background_button">#11000000</color><color name="transparent_background">#F4F5FB</color><color name="light_blue">#0bbbf7</color><color name="dark_blue">#1737D7</color><color name="soft_white">#F4F5FB</color><color name="soft_blue">#138CB4</color></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="list_width">404dp</dimen><dimen name="list_height">250dp</dimen><dimen name="lable_width">345dp</dimen><dimen name="lable_num_width">45dp</dimen><dimen name="list_devide">1dp</dimen><dimen name="button_height">40dp</dimen><dimen name="button_width">80dp</dimen><dimen name="rm_6c_et_height">40dp</dimen></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\strings.xml" qualifiers=""><drawable name="clr_normal">#666666</drawable><drawable name="clr_pressed">#333333</drawable><drawable name="list_normal">#00000000</drawable><drawable name="list_pressed">#FF333333</drawable><string name="app_name">DLA App</string><string name="action_settings">Settings</string><string name="hello_world">Hello world!</string><string-array name="type_spinner">
+    </attr><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\rs\debug"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res"><file name="pin_box_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable\pin_box_bg.xml" qualifiers="" type="drawable"/><file name="a" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\a.png" qualifiers="hdpi-v4" type="drawable"/><file name="back" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\back.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_default_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_default_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="bg_main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_main.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_main_main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_main_main.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_menu" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_menu.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_sign_in" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_sign_in.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_welcome_screen" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_welcome_screen.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_0" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_0.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_1" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_2" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_2.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_3" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_3.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_4" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_4.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_5" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_5.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_6" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_6.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_7" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_7.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_8" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_8.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_9" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_after_clear" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_after_clear.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_after_start_inventory" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_after_start_inventory.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_after_stop_inventory" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_after_stop_inventory.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_back" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_before_clear" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_before_clear.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_before_start_inventory" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_before_start_inventory.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_before_stop_inventory" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_before_stop_inventory.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_off" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_check_off.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_check_on" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_check_on.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_connect" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_connect.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_eas_alarm" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_eas_alarm.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_generate_code" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_generate_code.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_get" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_get.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_help_guid" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_help_guid.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_notif.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_protect_afi" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_protect_afi.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_protect_eas" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_protect_eas.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_read_afi" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_read_afi.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_read_block" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_read_block.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_read_blocks" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_read_blocks.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_reset_eas" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_reset_eas.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_rfid_scan" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_rfid_scan.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_left" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_left.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_left_down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_left_down.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_right" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_right.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_select_background_select_right_down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_select_background_select_right_down.xml" qualifiers="hdpi-v4" type="drawable"/><file name="btn_set" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_set.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_set_afi" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_set_afi.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_set_eas" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_set_eas.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_set_password" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_set_password.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_stock_opname" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_stock_opname.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_write_block" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_write_block.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_write_password" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_write_password.png" qualifiers="hdpi-v4" type="drawable"/><file name="button_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_disenabled_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_disenabled_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_get_started" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_get_started.png" qualifiers="hdpi-v4" type="drawable"/><file name="button_press_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_press_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="check_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\check_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="color_button_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\color_button_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="color_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\color_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="down" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\down.png" qualifiers="hdpi-v4" type="drawable"/><file name="editbox_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\editbox_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="gradient_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\gradient_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="icon_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\icon_notif.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_popupwin_menu_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\icon_popupwin_menu_bg.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="input_number" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\input_number.png" qualifiers="hdpi-v4" type="drawable"/><file name="left" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\left.png" qualifiers="hdpi-v4" type="drawable"/><file name="list_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_bg.xml" qualifiers="hdpi-v4" type="drawable"/><file name="list_bg_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_bg_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="list_item_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\list_item_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="logo_tip" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\logo_tip.png" qualifiers="hdpi-v4" type="drawable"/><file name="menu_icon" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\menu_icon.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_background_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_background_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_click" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_click.png" qualifiers="hdpi-v4" type="drawable"/><file name="more_set_button_disenabled" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\more_set_button_disenabled.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_checked" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_not_checked" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_not_checked.png" qualifiers="hdpi-v4" type="drawable"/><file name="radio_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\radio_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="readonly_editbox_background" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\readonly_editbox_background.xml" qualifiers="hdpi-v4" type="drawable"/><file name="right" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\right.png" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_bottom_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_bottom_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_middle_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_middle_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_press_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_press_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top_select" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top_select.xml" qualifiers="hdpi-v4" type="drawable"/><file name="table_item_top_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\table_item_top_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="title_button_selector" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\title_button_selector.xml" qualifiers="hdpi-v4" type="drawable"/><file name="up" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\up.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_connect232" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_connect232.xml" qualifiers="" type="layout"/><file name="activity_help_guide" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_help_guide.xml" qualifiers="" type="layout"/><file name="activity_login" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="activity_menu" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_menu.xml" qualifiers="" type="layout"/><file name="activity_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_notif.xml" qualifiers="" type="layout"/><file name="activity_rw_data" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_rw_data.xml" qualifiers="" type="layout"/><file name="activity_splash" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_welcome" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_welcome.xml" qualifiers="" type="layout"/><file name="listinfo_items" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\listinfo_items.xml" qualifiers="" type="layout"/><file name="listtag_items" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\listtag_items.xml" qualifiers="" type="layout"/><file name="query" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\query.xml" qualifiers="" type="layout"/><file name="scan_view" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\scan_view.xml" qualifiers="" type="layout"/><file name="activity_mainsad" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\activity_mainsad.xml" qualifiers="" type="menu"/><file name="connect232" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\connect232.xml" qualifiers="" type="menu"/><file name="main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file name="rw_" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\menu\rw_.xml" qualifiers="" type="menu"/><file name="scan_new" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\raw\scan_new.ogg" qualifiers="" type="raw"/><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\colors-old.xml" qualifiers=""><color name="divide">#000000</color><color name="epc_selected">#11000000</color></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\colors.xml" qualifiers=""><color name="transparent_background_button">#11000000</color><color name="transparent_background">#F4F5FB</color><color name="light_blue">#0bbbf7</color><color name="dark_blue">#1737D7</color><color name="white">#FFFFFF</color><color name="soft_white">#F4F5FB</color><color name="soft_blue">#138CB4</color></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="list_width">404dp</dimen><dimen name="list_height">250dp</dimen><dimen name="lable_width">345dp</dimen><dimen name="lable_num_width">45dp</dimen><dimen name="list_devide">1dp</dimen><dimen name="button_height">40dp</dimen><dimen name="button_width">80dp</dimen><dimen name="rm_6c_et_height">40dp</dimen></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\strings.xml" qualifiers=""><drawable name="clr_normal">#666666</drawable><drawable name="clr_pressed">#333333</drawable><drawable name="list_normal">#00000000</drawable><drawable name="list_pressed">#FF333333</drawable><string name="app_name">DLA App</string><string name="action_settings">Settings</string><string name="hello_world">Hello world!</string><string-array name="type_spinner">
         <item>A</item>
         <item>B</item>
     </string-array><string-array name="comtype_spinner">
@@ -2738,7 +2778,7 @@
         <item>61</item>
         <item>62</item>
         <item>63</item>
-    </string-array><string name="title_activity_connect232">Connect232</string><string name="title_activity_rw_">RW_Activity</string><string name="tab_set">SETTING</string><string name="tab_scan">INVENTORY</string><string name="tab_operation">READ AND WRITE</string><string name="com_type">Type:</string><string name="serialport">SerialPort:</string><string name="baudrate">BaudRate:</string><string name="version">Version:</string><string name="power">Power:</string><string name="btConnect">Connect</string><string name="btGet">Get</string><string name="btSet">Set</string><string name="btStart">Start Inventory</string><string name="btStop">Stop Inventory</string><string name="btClear">Clear</string><string name="Count">Count:</string><string name="Label">Label:</string><string name="Time">Time(ms):</string><string name="Result">Result:</string><string name="blockNo">Block(Dec):</string><string name="blockLength">Block length(Dec):</string><string name="wdata">Write Data(Hex):</string><string name="rdata">Read Data(Hex):</string><string name="label_type">Type:</string><string name="btwblock">Write Block</string><string name="btrblock">Read Block</string><string name="btrblocks">Read Blocks</string><string name="password">Password(Hex):</string><string name="afi">AFI(Hex):</string><string name="setpassword">Set Password</string><string name="writepassword">Write Password</string><string name="protectafi">Protect AFI</string><string name="protecteas">Protect EAS</string><string name="setafi">Set AFI</string><string name="getafi">Read AFI</string><string name="seteas">Set EAS</string><string name="reseteas">Reset EAS</string><string name="easalarm">EAS Alarm</string><string name="success">Success</string><string name="failed">Failed</string><string name="strEasAlarm">EAS Alarm</string><string name="strNoalarm">No Alarm</string><string name="welcome_to_dla">Welcome to DLA</string><string name="slogan_books">Scan, manage, and access your book collection with ease.</string><string name="digitize_faster_more_accurately">Digitize Books Faster and More Accurately.</string><string name="get_started">Get Started</string><string name="supported_by">Supported by</string><string name="telecom_infra_project">TELECOM INFRA PROJECT</string><string name="slogan_menu">Access your digital tools below</string><string name="notifications">Notifications</string><string name="select_an_action">Select an Action</string><string name="sign_in">Sign In</string><string name="slogan_sign_in">Enter your PIN to continue managing your digital library</string><string name="enter_pin">Enter PIN</string><string name="slogan_notif">Keep track of your system updates and book activity</string></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+    </string-array><string name="title_activity_connect232">Connect232</string><string name="title_activity_rw_">RW_Activity</string><string name="tab_set">SETTING</string><string name="tab_scan">INVENTORY</string><string name="tab_operation">READ AND WRITE</string><string name="com_type">Type:</string><string name="serialport">SerialPort:</string><string name="baudrate">BaudRate:</string><string name="version">Version:</string><string name="power">Power:</string><string name="btConnect">Connect</string><string name="btGet">Get</string><string name="btSet">Set</string><string name="btStart">Start Inventory</string><string name="btStop">Stop Inventory</string><string name="btClear">Clear</string><string name="Count">Count:</string><string name="Label">Label:</string><string name="Time">Time(ms):</string><string name="Result">Result:</string><string name="blockNo">Block(Dec):</string><string name="blockLength">Block length(Dec):</string><string name="wdata">Write Data(Hex):</string><string name="rdata">Read Data(Hex):</string><string name="label_type">Type:</string><string name="btwblock">Write Block</string><string name="btrblock">Read Block</string><string name="btrblocks">Read Blocks</string><string name="password">Password(Hex):</string><string name="afi">AFI(Hex):</string><string name="setpassword">Set Password</string><string name="writepassword">Write Password</string><string name="protectafi">Protect AFI</string><string name="protecteas">Protect EAS</string><string name="setafi">Set AFI</string><string name="getafi">Read AFI</string><string name="seteas">Set EAS</string><string name="reseteas">Reset EAS</string><string name="easalarm">EAS Alarm</string><string name="success">Success</string><string name="failed">Failed</string><string name="strEasAlarm">EAS Alarm</string><string name="strNoalarm">No Alarm</string><string name="welcome_to_dla">Welcome to DLA</string><string name="slogan_books">Scan, manage, and access your book collection with ease.</string><string name="digitize_faster_more_accurately">Digitize Books Faster and More Accurately.</string><string name="get_started">Get Started</string><string name="supported_by">Supported by</string><string name="telecom_infra_project">TELECOM INFRA PROJECT</string><string name="sign_in">Sign In</string><string name="slogan_sign_in">Enter your PIN to continue managing your digital library</string><string name="enter_pin">Enter PIN</string><string name="select_an_action">Select an Action</string><string name="slogan_menu">Access your digital tools below</string><string name="notifications">Notifications</string><string name="slogan_notif">Keep track of your system updates and book activity</string><string name="rfid_scan">RFID Scan</string><string name="configure_rfid_scanner">Configure RFID Scanner</string><string name="configure_version_and_power">Configure Version and Power</string><string name="help_guide">Help/ Guide</string><string name="slogan_help_guide">Learn how to use the features easily</string><string name="sub_tittle_help_guide">User Guide and Feature Instructions</string></file><file path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
         
     </style><style name="AppTheme" parent="AppBaseTheme">
         
@@ -2824,7 +2864,7 @@
         <item>61</item>
         <item>62</item>
         <item>63</item>
-    </string-array><string name="title_activity_connect232">Connect232</string><string name="title_activity_rw_">RW_Activity</string><string name="tab_set">设置</string><string name="tab_scan">查询</string><string name="tab_operation">读写</string><string name="com_type">通讯方式:</string><string name="serialport">串口:</string><string name="baudrate">波特率:</string><string name="version">固件版本:</string><string name="power">功率:</string><string name="btConnect">连接</string><string name="btGet">读取</string><string name="btSet">设置</string><string name="btStart">开始盘点</string><string name="btStop">停止盘点</string><string name="btClear">清空</string><string name="Count">轮数:</string><string name="Label">张数:</string><string name="Time">时间(ms):</string><string name="Result">指令执行结果:</string><string name="blockNo">待读取块号(Dec):</string><string name="blockLength">块数量(Dec):</string><string name="wdata">写数据(Hex):</string><string name="rdata">读数据(Hex):</string><string name="label_type">标签类型:</string><string name="btwblock">写单块</string><string name="btrblock">读单块</string><string name="btrblocks">读多块</string><string name="password">密码(Hex):</string><string name="afi">AFI(Hex):</string><string name="setpassword">设置密码</string><string name="writepassword">写密码</string><string name="protectafi">AFI密码保护</string><string name="protecteas">EAS密码保护</string><string name="setafi">设置AFI</string><string name="getafi">读取AFI</string><string name="seteas">设置EAS</string><string name="reseteas">重置EAS</string><string name="easalarm">检测EAS报警</string><string name="success">执行成功</string><string name="failed">执行失败</string><string name="strEasAlarm">EAS报警</string><string name="strNoalarm">无报警</string><string name="welcome_to_dla">欢迎来到DLA</string><string name="slogan_books">轻松扫描、管理和访问您的书籍收藏。</string><string name="digitize_faster_more_accurately">更快更准确地数字化书籍。</string><string name="get_started">开始使用</string><string name="supported_by">技术支持</string><string name="telecom_infra_project">电信基础设施项目</string><string name="slogan_notif">追踪您的系统更新和书籍活动</string><string name="sign_in">登录</string><string name="notifications">通知</string><string name="slogan_sign_in">输入您的PIN码以继续管理您的数字图书馆</string><string name="slogan_menu">请在下方访问您的数字工具</string><string name="enter_pin">输入PIN码</string><string name="select_an_action">选择一个操作</string></file><file name="inventorylist_tittle" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\xml\inventorylist_tittle.xml" qualifiers="" type="xml"/><file name="btn_9" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_4" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_4.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_sign_in" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_sign_in.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_2" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_2.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_6" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_6.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_8" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_8.png" qualifiers="hdpi-v4" type="drawable"/><file name="activity_login" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="btn_0" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_0.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_1" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_1.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_7" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_7.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_welcome_screen" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_welcome_screen.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_5" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_5.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_back" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_3" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_3.png" qualifiers="hdpi-v4" type="drawable"/><file name="activity_menu" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_menu.xml" qualifiers="" type="layout"/><file name="btn_help_guid" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_help_guid.png" qualifiers="hdpi-v4" type="drawable"/><file name="input_number" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\input_number.png" qualifiers="hdpi-v4" type="drawable"/><file name="bg_menu" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_menu.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_generate_code" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_generate_code.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_rfid_scan" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_rfid_scan.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_stock_opname" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_stock_opname.png" qualifiers="hdpi-v4" type="drawable"/><file name="pin_box_bg" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable\pin_box_bg.xml" qualifiers="" type="drawable"/><file name="bg_main" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\bg_main.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\btn_notif.png" qualifiers="hdpi-v4" type="drawable"/><file name="icon_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\drawable-hdpi\icon_notif.png" qualifiers="hdpi-v4" type="drawable"/><file name="activity_notif" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\layout\activity_notif.xml" qualifiers="" type="layout"/></source><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\rs\debug"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </string-array><string name="title_activity_connect232">Connect232</string><string name="title_activity_rw_">RW_Activity</string><string name="tab_set">设置</string><string name="tab_scan">查询</string><string name="tab_operation">读写</string><string name="com_type">通讯方式:</string><string name="serialport">串口:</string><string name="baudrate">波特率:</string><string name="version">固件版本:</string><string name="power">功率:</string><string name="btConnect">连接</string><string name="btGet">读取</string><string name="btSet">设置</string><string name="btStart">开始盘点</string><string name="btStop">停止盘点</string><string name="btClear">清空</string><string name="Count">轮数:</string><string name="Label">张数:</string><string name="Time">时间(ms):</string><string name="Result">指令执行结果:</string><string name="blockNo">待读取块号(Dec):</string><string name="blockLength">块数量(Dec):</string><string name="wdata">写数据(Hex):</string><string name="rdata">读数据(Hex):</string><string name="label_type">标签类型:</string><string name="btwblock">写单块</string><string name="btrblock">读单块</string><string name="btrblocks">读多块</string><string name="password">密码(Hex):</string><string name="afi">AFI(Hex):</string><string name="setpassword">设置密码</string><string name="writepassword">写密码</string><string name="protectafi">AFI密码保护</string><string name="protecteas">EAS密码保护</string><string name="setafi">设置AFI</string><string name="getafi">读取AFI</string><string name="seteas">设置EAS</string><string name="reseteas">重置EAS</string><string name="easalarm">检测EAS报警</string><string name="success">执行成功</string><string name="failed">执行失败</string><string name="strEasAlarm">EAS报警</string><string name="strNoalarm">无报警</string><string name="welcome_to_dla">欢迎来到DLA</string><string name="slogan_books">轻松扫描、管理和访问您的书籍收藏。</string><string name="digitize_faster_more_accurately">更快更准确地数字化书籍。</string><string name="get_started">开始使用</string><string name="supported_by">技术支持</string><string name="telecom_infra_project">电信基础设施项目</string><string name="sign_in">登录</string><string name="slogan_sign_in">输入您的PIN码以继续管理您的数字图书馆</string><string name="enter_pin">输入PIN码</string><string name="select_an_action">选择一个操作</string><string name="slogan_menu">请在下方访问您的数字工具</string><string name="notifications">通知</string><string name="slogan_notif">追踪您的系统更新和书籍活动</string><string name="rfid_scan">RFID扫描</string><string name="configure_rfid_scanner">配置RFID扫描器</string><string name="configure_version_and_power">配置版本和功率</string><string name="help_guide">帮助/指南</string><string name="slogan_help_guide">轻松学习如何使用这些功能</string><string name="sub_tittle_help_guide">用户指南和功能说明</string></file><file name="inventorylist_tittle" path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\main\res\xml\inventorylist_tittle.xml" qualifiers="" type="xml"/></source><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\rs\debug"/><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Telecom Infra Project Lab\RFIDDemo(0.5W) - 20230302(keypress)\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>
@@ -2963,87 +3003,11 @@
 
         
         <attr name="android:tileMode"/>
-    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
-    </declare-styleable><declare-styleable name="ColorStateListItem">
-        
-        <attr name="android:color"/>
-        
-        <attr format="float" name="alpha"/>
-        <attr name="android:alpha"/>
-    </declare-styleable><declare-styleable name="Spinner">
-        
-        <attr name="android:prompt"/>
-        
-        <attr name="popupTheme"/>
-        
-        <attr name="android:popupBackground"/>
-        
-        <attr name="android:dropDownWidth"/>
-        
-        <attr name="android:entries"/>
-    </declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="PopupWindow">
-        
-        <attr format="boolean" name="overlapAnchor"/>
-        <attr name="android:popupBackground"/>
-        <attr name="android:popupAnimationStyle"/>
     </declare-styleable><declare-styleable name="AnimatedStateListDrawableItem">
         
         <attr name="android:drawable"/>
         
         <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="DrawerArrowToggle">
-        
-        <attr format="color" name="color"/>
-        
-        <attr format="boolean" name="spinBars"/>
-        
-        <attr format="dimension" name="drawableSize"/>
-        
-        <attr format="dimension" name="gapBetweenBars"/>
-        
-        <attr format="dimension" name="arrowHeadLength"/>
-        
-        <attr format="dimension" name="arrowShaftLength"/>
-        
-        <attr format="dimension" name="barLength"/>
-        
-        <attr format="dimension" name="thickness"/>
-    </declare-styleable><declare-styleable name="ActionBarLayout">
-        <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="StateListDrawable">
-        
-        <attr name="android:visible"/>
-        
-        <attr name="android:variablePadding"/>
-        
-        <attr name="android:constantSize"/>
-        
-        <attr name="android:dither"/>
-        
-        <attr name="android:enterFadeDuration"/>
-        
-        <attr name="android:exitFadeDuration"/>
-        
-        
-    </declare-styleable><declare-styleable name="ActivityChooserView">
-        
-        <attr format="string" name="initialActivityCount"/>
-        
-        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable><declare-styleable name="GradientColorItem">
         
         <attr name="android:offset"/>
@@ -3391,31 +3355,6 @@
         <attr format="reference|color" name="colorError"/>
 
         <attr format="string" name="viewInflaterClass"/>
-    </declare-styleable><declare-styleable name="ViewStubCompat">
-        
-        <attr name="android:layout"/>
-        
-        <attr name="android:inflatedId"/>
-        <attr name="android:id"/>
-    </declare-styleable><declare-styleable name="ListPopupWindow">
-        
-        <attr name="android:dropDownVerticalOffset"/>
-        
-        <attr name="android:dropDownHorizontalOffset"/>
-    </declare-styleable><declare-styleable name="TextAppearance">
-        <attr name="android:textSize"/>
-        <attr name="android:textColor"/>
-        <attr name="android:textColorHint"/>
-        <attr name="android:textColorLink"/>
-        <attr name="android:textStyle"/>
-        <attr name="android:typeface"/>
-        <attr name="android:fontFamily"/>
-        <attr name="fontFamily"/>
-        <attr name="textAllCaps"/>
-        <attr name="android:shadowColor"/>
-        <attr name="android:shadowDy"/>
-        <attr name="android:shadowDx"/>
-        <attr name="android:shadowRadius"/>
     </declare-styleable><declare-styleable name="MenuView">
         
         <attr name="android:itemTextAppearance"/>
@@ -3514,26 +3453,6 @@
         <attr format="dimension" name="elevation"/>
         
         <attr format="reference" name="popupTheme"/>
-    </declare-styleable><declare-styleable name="MenuGroup">
-
-        
-        <attr name="android:id"/>
-
-        
-        <attr name="android:menuCategory"/>
-
-        
-        <attr name="android:orderInCategory"/>
-
-        
-        <attr name="android:checkableBehavior"/>
-
-        
-        <attr name="android:visible"/>
-
-        
-        <attr name="android:enabled"/>
-
     </declare-styleable><declare-styleable name="ActionMenuItemView">
         <attr name="android:minWidth"/>
     </declare-styleable><declare-styleable name="Toolbar">
@@ -3591,27 +3510,6 @@
         <attr name="android:layout_height"/>
         <attr name="android:layout_weight"/>
         <attr name="android:layout_gravity"/>
-    </declare-styleable><declare-styleable name="FontFamily">
-        
-        <attr format="string" name="fontProviderAuthority"/>
-        
-        <attr format="string" name="fontProviderPackage"/>
-        
-        <attr format="string" name="fontProviderQuery"/>
-        
-        <attr format="reference" name="fontProviderCerts"/>
-        
-        <attr name="fontProviderFetchStrategy">
-            
-            <enum name="blocking" value="0"/>
-            
-            <enum name="async" value="1"/>
-        </attr>
-        
-        <attr format="integer" name="fontProviderFetchTimeout">
-            
-            <enum name="forever" value="-1"/>
-        </attr>
     </declare-styleable><declare-styleable name="StateListDrawableItem">
         
         <attr name="android:drawable"/>
@@ -3642,6 +3540,292 @@
         <attr format="dimension" name="firstBaselineToTopHeight"/>
         
         <attr format="dimension" name="lastBaselineToBottomHeight"/>
+    </declare-styleable><declare-styleable name="CardView">
+        
+        <attr format="color" name="cardBackgroundColor"/>
+        
+        <attr format="dimension" name="cardCornerRadius"/>
+        
+        <attr format="dimension" name="cardElevation"/>
+        
+        <attr format="dimension" name="cardMaxElevation"/>
+        
+        <attr format="boolean" name="cardUseCompatPadding"/>
+        
+        <attr format="boolean" name="cardPreventCornerOverlap"/>
+        
+        <attr format="dimension" name="contentPadding"/>
+        
+        <attr format="dimension" name="contentPaddingLeft"/>
+        
+        <attr format="dimension" name="contentPaddingRight"/>
+        
+        <attr format="dimension" name="contentPaddingTop"/>
+        
+        <attr format="dimension" name="contentPaddingBottom"/>
+        
+        <attr name="android:minWidth"/>
+        
+        <attr name="android:minHeight"/>
+    </declare-styleable><declare-styleable name="ButtonBarLayout">
+        
+        <attr format="boolean" name="allowStacking"/>
+    </declare-styleable><declare-styleable name="ViewBackgroundHelper">
+        <attr name="android:background"/>
+        
+        <attr format="color" name="backgroundTint"/>
+
+        
+        <attr name="backgroundTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="AppCompatImageView">
+        <attr name="android:src"/>
+        
+        <attr format="reference" name="srcCompat"/>
+
+        
+        <attr format="color" name="tint"/>
+
+        
+        <attr name="tintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+    </declare-styleable><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="PopupWindowBackgroundState">
+        
+        <attr format="boolean" name="state_above_anchor"/>
+    </declare-styleable><declare-styleable name="ActionMode">
+        
+        <attr name="titleTextStyle"/>
+        
+        <attr name="subtitleTextStyle"/>
+        
+        <attr name="background"/>
+        
+        <attr name="backgroundSplit"/>
+        
+        <attr name="height"/>
+        
+        <attr format="reference" name="closeItemLayout"/>
+    </declare-styleable><declare-styleable name="SwitchCompat">
+        
+        <attr name="android:thumb"/>
+        
+        <attr format="color" name="thumbTint"/>
+        
+        <attr name="thumbTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr format="reference" name="track"/>
+        
+        <attr format="color" name="trackTint"/>
+        
+        <attr name="trackTintMode">
+            
+            <enum name="src_over" value="3"/>
+            
+            <enum name="src_in" value="5"/>
+            
+            <enum name="src_atop" value="9"/>
+            
+            <enum name="multiply" value="14"/>
+            
+            <enum name="screen" value="15"/>
+            
+            <enum name="add" value="16"/>
+        </attr>
+        
+        <attr name="android:textOn"/>
+        
+        <attr name="android:textOff"/>
+        
+        <attr format="dimension" name="thumbTextPadding"/>
+        
+        <attr format="reference" name="switchTextAppearance"/>
+        
+        <attr format="dimension" name="switchMinWidth"/>
+        
+        <attr format="dimension" name="switchPadding"/>
+        
+        <attr format="boolean" name="splitTrack"/>
+        
+        <attr format="boolean" name="showText"/>
+    </declare-styleable><declare-styleable name="AnimatedStateListDrawableCompat">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ColorStateListItem">
+        
+        <attr name="android:color"/>
+        
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable><declare-styleable name="Spinner">
+        
+        <attr name="android:prompt"/>
+        
+        <attr name="popupTheme"/>
+        
+        <attr name="android:popupBackground"/>
+        
+        <attr name="android:dropDownWidth"/>
+        
+        <attr name="android:entries"/>
+    </declare-styleable><declare-styleable name="ConstraintLayout_placeholder"><attr name="emptyVisibility"/><attr name="content"/></declare-styleable><declare-styleable name="PopupWindow">
+        
+        <attr format="boolean" name="overlapAnchor"/>
+        <attr name="android:popupBackground"/>
+        <attr name="android:popupAnimationStyle"/>
+    </declare-styleable><declare-styleable name="DrawerArrowToggle">
+        
+        <attr format="color" name="color"/>
+        
+        <attr format="boolean" name="spinBars"/>
+        
+        <attr format="dimension" name="drawableSize"/>
+        
+        <attr format="dimension" name="gapBetweenBars"/>
+        
+        <attr format="dimension" name="arrowHeadLength"/>
+        
+        <attr format="dimension" name="arrowShaftLength"/>
+        
+        <attr format="dimension" name="barLength"/>
+        
+        <attr format="dimension" name="thickness"/>
+    </declare-styleable><declare-styleable name="ActionBarLayout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable><declare-styleable name="StateListDrawable">
+        
+        <attr name="android:visible"/>
+        
+        <attr name="android:variablePadding"/>
+        
+        <attr name="android:constantSize"/>
+        
+        <attr name="android:dither"/>
+        
+        <attr name="android:enterFadeDuration"/>
+        
+        <attr name="android:exitFadeDuration"/>
+        
+        
+    </declare-styleable><declare-styleable name="ActivityChooserView">
+        
+        <attr format="string" name="initialActivityCount"/>
+        
+        <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
+    </declare-styleable><declare-styleable name="ViewStubCompat">
+        
+        <attr name="android:layout"/>
+        
+        <attr name="android:inflatedId"/>
+        <attr name="android:id"/>
+    </declare-styleable><declare-styleable name="ListPopupWindow">
+        
+        <attr name="android:dropDownVerticalOffset"/>
+        
+        <attr name="android:dropDownHorizontalOffset"/>
+    </declare-styleable><declare-styleable name="TextAppearance">
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:textColorLink"/>
+        <attr name="android:textStyle"/>
+        <attr name="android:typeface"/>
+        <attr name="android:fontFamily"/>
+        <attr name="fontFamily"/>
+        <attr name="textAllCaps"/>
+        <attr name="android:shadowColor"/>
+        <attr name="android:shadowDy"/>
+        <attr name="android:shadowDx"/>
+        <attr name="android:shadowRadius"/>
+    </declare-styleable><declare-styleable name="MenuGroup">
+
+        
+        <attr name="android:id"/>
+
+        
+        <attr name="android:menuCategory"/>
+
+        
+        <attr name="android:orderInCategory"/>
+
+        
+        <attr name="android:checkableBehavior"/>
+
+        
+        <attr name="android:visible"/>
+
+        
+        <attr name="android:enabled"/>
+
+    </declare-styleable><declare-styleable name="FontFamily">
+        
+        <attr format="string" name="fontProviderAuthority"/>
+        
+        <attr format="string" name="fontProviderPackage"/>
+        
+        <attr format="string" name="fontProviderQuery"/>
+        
+        <attr format="reference" name="fontProviderCerts"/>
+        
+        <attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr>
+        
+        <attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr>
     </declare-styleable><declare-styleable name="MenuItem">
 
         
@@ -3751,30 +3935,7 @@
             <enum name="add" value="16"/>
         </attr>
 
-    </declare-styleable><declare-styleable name="ButtonBarLayout">
-        
-        <attr format="boolean" name="allowStacking"/>
-    </declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable><declare-styleable name="ViewBackgroundHelper">
-        <attr name="android:background"/>
-        
-        <attr format="color" name="backgroundTint"/>
-
-        
-        <attr name="backgroundTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-    </declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
+    </declare-styleable><declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable><declare-styleable name="AnimatedStateListDrawableTransition">
         
         <attr name="android:fromId"/>
         
@@ -3783,29 +3944,6 @@
         <attr name="android:drawable"/>
         
         <attr name="android:reversible"/>
-    </declare-styleable><declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/><attr name="barrierDirection"/><attr name="constraint_referenced_ids"/><attr name="android:maxHeight"/><attr name="android:maxWidth"/><attr name="android:minHeight"/><attr name="android:minWidth"/><attr name="barrierAllowsGoneWidgets"/><attr name="chainUseRtl"/></declare-styleable><declare-styleable name="AppCompatImageView">
-        <attr name="android:src"/>
-        
-        <attr format="reference" name="srcCompat"/>
-
-        
-        <attr format="color" name="tint"/>
-
-        
-        <attr name="tintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
     </declare-styleable><declare-styleable name="View">
         
         <attr format="dimension" name="paddingStart"/>
@@ -3817,9 +3955,6 @@
         <attr format="reference" name="theme"/>
         
         <attr name="android:theme"/>
-    </declare-styleable><declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="barrierDirection"/><attr name="barrierAllowsGoneWidgets"/><attr name="constraint_referenced_ids"/><attr name="chainUseRtl"/><attr name="layout_constraintCircle"/><attr name="layout_constraintCircleRadius"/><attr name="layout_constraintCircleAngle"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constrainedWidth"/><attr name="layout_constrainedHeight"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintWidth_percent"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintHeight_percent"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable><declare-styleable name="PopupWindowBackgroundState">
-        
-        <attr format="boolean" name="state_above_anchor"/>
     </declare-styleable><declare-styleable name="CoordinatorLayout">
         
         <attr format="reference" name="keylines"/>
@@ -3902,19 +4037,6 @@
         
         <attr format="reference" name="submitBackground"/>
         <attr name="android:focusable"/>
-    </declare-styleable><declare-styleable name="ActionMode">
-        
-        <attr name="titleTextStyle"/>
-        
-        <attr name="subtitleTextStyle"/>
-        
-        <attr name="background"/>
-        
-        <attr name="backgroundSplit"/>
-        
-        <attr name="height"/>
-        
-        <attr format="reference" name="closeItemLayout"/>
     </declare-styleable><declare-styleable name="ActionMenuView">
         
     </declare-styleable><declare-styleable name="CompoundButton">
@@ -3937,61 +4059,6 @@
             
             <enum name="add" value="16"/>
         </attr>
-    </declare-styleable><declare-styleable name="SwitchCompat">
-        
-        <attr name="android:thumb"/>
-        
-        <attr format="color" name="thumbTint"/>
-        
-        <attr name="thumbTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr format="reference" name="track"/>
-        
-        <attr format="color" name="trackTint"/>
-        
-        <attr name="trackTintMode">
-            
-            <enum name="src_over" value="3"/>
-            
-            <enum name="src_in" value="5"/>
-            
-            <enum name="src_atop" value="9"/>
-            
-            <enum name="multiply" value="14"/>
-            
-            <enum name="screen" value="15"/>
-            
-            <enum name="add" value="16"/>
-        </attr>
-        
-        <attr name="android:textOn"/>
-        
-        <attr name="android:textOff"/>
-        
-        <attr format="dimension" name="thumbTextPadding"/>
-        
-        <attr format="reference" name="switchTextAppearance"/>
-        
-        <attr format="dimension" name="switchMinWidth"/>
-        
-        <attr format="dimension" name="switchPadding"/>
-        
-        <attr format="boolean" name="splitTrack"/>
-        
-        <attr format="boolean" name="showText"/>
     </declare-styleable><declare-styleable name="AppCompatTextHelper">
         <attr name="android:drawableLeft"/>
         <attr name="android:drawableTop"/>

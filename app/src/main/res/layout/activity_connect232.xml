@@ -136,20 +136,32 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="10dp"
+			android:gravity="center"
 			android:orientation="vertical" />
 
 		<!-- Tombol Connect -->
-		<TextView
+<!--		<TextView-->
+<!--			android:id="@+id/textview_connect"-->
+<!--			android:layout_width="match_parent"-->
+<!--			android:layout_height="wrap_content"-->
+<!--			android:background="@drawable/color_button_selector"-->
+<!--			android:clickable="true"-->
+<!--			android:gravity="center"-->
+<!--			android:paddingVertical="12dp"-->
+<!--			android:text="@string/btConnect"-->
+<!--			android:textColor="@color/white"-->
+<!--			android:textStyle="bold" />-->
+
+		<ImageButton
 			android:id="@+id/textview_connect"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:background="@drawable/color_button_selector"
 			android:clickable="true"
-			android:gravity="center"
+			android:layout_marginTop="16dp"
 			android:paddingVertical="12dp"
-			android:text="@string/btConnect"
-			android:textColor="@color/white"
-			android:textStyle="bold" />
+			android:src="@drawable/btn_connect"
+			android:scaleType="fitCenter"
+			android:background="@null"/>
 
 	</LinearLayout>
 

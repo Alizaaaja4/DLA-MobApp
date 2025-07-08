@@ -158,4 +158,8 @@
     <string name="configure_rfid_scanner">Configure RFID Scanner</string>
     <string name="configure_version_and_power">Configure Version and Power</string>
 
+    <string name="help_guide">Help/ Guide</string>
+    <string name="slogan_help_guide">Learn how to use the features easily</string>
+    <string name="sub_tittle_help_guide">User Guide and Feature Instructions</string>
+
 </resources>

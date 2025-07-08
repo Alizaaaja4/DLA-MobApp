@@ -1,3 +1,5 @@
+com/rfid/hf/HelpGuide.java
+ com.rfid.hf.HelpGuide
 com/rfid/hf/ScanMode.java
  com.rfid.hf.ScanMode
  com.rfid.hf.ScanMode$1
@@ -56,6 +58,7 @@ com/rfid/hf/ScanModeGroup.java
 com/rfid/hf/MenuActivity.java
  com.rfid.hf.MenuActivity
  com.rfid.hf.MenuActivity$1
+ com.rfid.hf.MenuActivity$2
 com/rfid/hf/Util.java
  com.rfid.hf.Util
 com/rfid/hf/ScanView.java

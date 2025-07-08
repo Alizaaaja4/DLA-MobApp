@@ -156,4 +156,9 @@
     <string name="rfid_scan">RFID扫描</string>
     <string name="configure_rfid_scanner">配置RFID扫描器</string>
     <string name="configure_version_and_power">配置版本和功率</string>
+
+    <string name="help_guide">帮助/指南</string>
+    <string name="slogan_help_guide">轻松学习如何使用这些功能</string>
+    <string name="sub_tittle_help_guide">用户指南和功能说明</string>
+
 </resources>

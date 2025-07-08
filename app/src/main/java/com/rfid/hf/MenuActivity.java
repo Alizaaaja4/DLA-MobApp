@@ -7,19 +7,30 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class MenuActivity extends AppCompatActivity {
-    private ImageButton btn_notif;
+    private ImageButton getStartedNotif;
+    private ImageButton getStartedHelpGuide;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        btn_notif = findViewById(R.id.btn_notif);
+        getStartedNotif = findViewById(R.id.btn_notif);
+        getStartedHelpGuide = findViewById(R.id.btn_help_guid);
 
-        btn_notif.setOnClickListener(new View.OnClickListener() {
+        getStartedNotif.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, Notif.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        getStartedHelpGuide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, HelpGuide.class);
                 startActivity(intent);
                 finish();
             }

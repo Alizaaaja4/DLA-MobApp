@@ -64,6 +64,12 @@
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
+        <!-- Menu Help/ Guide -->
+        <activity
+            android:name="com.rfid.hf.HelpGuide"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <!-- Menu HF -->
         <activity
             android:name="com.rfid.hf.MainHFActivity"
