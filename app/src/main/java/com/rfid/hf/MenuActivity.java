@@ -1,6 +1,7 @@
 package com.rfid.hf;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.ImageButton;
 
 public class MenuActivity extends AppCompatActivity {
     private ImageButton getStartedNotif;
+    private ImageButton getSrartedRFIDScan;
     private ImageButton getStartedHelpGuide;
 
     @Override
@@ -16,6 +18,7 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         getStartedNotif = findViewById(R.id.btn_notif);
+        getSrartedRFIDScan = findViewById(R.id.btn_rfid_scan);
         getStartedHelpGuide = findViewById(R.id.btn_help_guid);
 
         getStartedNotif.setOnClickListener(new View.OnClickListener() {
@@ -31,6 +34,15 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, HelpGuide.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        getSrartedRFIDScan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, Connect232.class);
                 startActivity(intent);
                 finish();
             }

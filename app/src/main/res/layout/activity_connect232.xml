@@ -5,6 +5,7 @@
 	android:layout_height="match_parent"
 	android:background="@drawable/bg_main_main">
 
+	<!-- Tombol Back di pojok kanan atas -->
 	<ImageButton
 		android:id="@+id/btn_back"
 		android:layout_width="44dp"
@@ -21,148 +22,101 @@
 
 	<!-- Judul Utama -->
 	<TextView
+		android:id="@+id/title_text"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
+		android:layout_marginStart="28dp"
+		android:layout_marginTop="80dp"
 		android:text="@string/rfid_scan"
 		android:textColor="@android:color/white"
-		android:textSize="50sp"
-		android:textStyle="bold"
-		android:paddingTop="40dp"
-		android:layout_margin="28dp" />
+		android:textSize="36sp"
+		android:textStyle="bold" />
 
-	<!-- sub judul -->
+	<!-- Subjudul -->
 	<TextView
+		android:id="@+id/subtitle_text"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:text="@string/configure_rfid_scanner"
 		android:textColor="@android:color/black"
 		android:textSize="20sp"
 		android:textStyle="bold"
-		android:paddingTop="150dp"
-		android:layout_margin="28dp"
-		android:paddingEnd="40dp"/>
+		android:layout_below="@id/title_text"
+		android:layout_marginTop="28dp"
+		android:layout_marginHorizontal="28dp"
+		android:gravity="center_horizontal" />
 
-	<!-- Container utama -->
+	<!-- Container Form -->
 	<LinearLayout
 		android:id="@+id/main_container"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:layout_centerInParent="true"
+		android:layout_below="@id/subtitle_text"
+		android:layout_marginTop="32dp"
 		android:orientation="vertical"
-		android:padding="20dp">
+		android:paddingHorizontal="32dp"
+		android:gravity="center_horizontal">
 
-		<!-- Spinner COM Type -->
-		<LinearLayout
+		<!-- Spinner: Type -->
+		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginBottom="10dp"
-			android:background="@color/white"
-			android:padding="10dp">
-
-			<TextView
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:layout_weight="1"
-				android:gravity="end"
-				android:text="@string/com_type"
-				android:textColor="#000" />
-
-			<Spinner
-				android:id="@+id/comtype_spinner"
-				android:layout_width="0dp"
-				android:layout_height="wrap_content"
-				android:layout_weight="2"
-				android:gravity="start" />
-		</LinearLayout>
-
-		<!-- RS232 Settings -->
-		<LinearLayout
+			android:text="Type:"
+			android:textStyle="bold"
+			android:layout_marginBottom="4dp"
+			android:textColor="#000000" />
+		<Spinner
+			android:id="@+id/comtype_spinner"
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginBottom="10dp"
-			android:background="@color/white"
-			android:orientation="vertical"
-			android:padding="10dp">
+			android:padding="3dp"
+			android:layout_marginBottom="16dp"
+			android:background="@drawable/bg_spinner" />
 
-			<!-- Serial Port -->
-			<LinearLayout
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:layout_marginBottom="10dp"
-				android:orientation="horizontal">
-
-				<TextView
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:gravity="end"
-					android:text="@string/serialport"
-					android:textColor="#222" />
-
-				<Spinner
-					android:id="@+id/rs232_spinner"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="2"
-					android:gravity="start" />
-			</LinearLayout>
-
-			<!-- Baud Rate -->
-			<LinearLayout
-				android:layout_width="match_parent"
-				android:layout_height="wrap_content"
-				android:orientation="horizontal">
-
-				<TextView
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="1"
-					android:gravity="end"
-					android:text="@string/baudrate"
-					android:textColor="#222" />
-
-				<Spinner
-					android:id="@+id/baud_spinner"
-					android:layout_width="0dp"
-					android:layout_height="wrap_content"
-					android:layout_weight="2"
-					android:gravity="start" />
-			</LinearLayout>
-		</LinearLayout>
-
-		<!-- Layout TCP (kosong, bisa kamu isi nantinya) -->
-		<LinearLayout
-			android:id="@+id/layout_tcp"
+		<!-- Spinner: SerialPort -->
+		<TextView
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_marginBottom="10dp"
-			android:gravity="center"
-			android:orientation="vertical" />
+			android:text="SerialPost:"
+			android:textStyle="bold"
+			android:layout_marginBottom="4dp"
+			android:textColor="#000000" />
+		<Spinner
+			android:id="@+id/rs232_spinner"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="3dp"
+			android:layout_marginBottom="16dp"
+			android:background="@drawable/bg_spinner" />
 
-		<!-- Tombol Connect -->
-<!--		<TextView-->
-<!--			android:id="@+id/textview_connect"-->
-<!--			android:layout_width="match_parent"-->
-<!--			android:layout_height="wrap_content"-->
-<!--			android:background="@drawable/color_button_selector"-->
-<!--			android:clickable="true"-->
-<!--			android:gravity="center"-->
-<!--			android:paddingVertical="12dp"-->
-<!--			android:text="@string/btConnect"-->
-<!--			android:textColor="@color/white"-->
-<!--			android:textStyle="bold" />-->
+		<!-- Spinner: BaudRate -->
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="BaudRate:"
+			android:textStyle="bold"
+			android:layout_marginBottom="4dp"
+			android:textColor="#000000" />
+		<Spinner
+			android:id="@+id/baud_spinner"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="3dp"
+			android:textColor="#000000"
+			android:layout_marginBottom="12dp"
+			android:background="@drawable/bg_spinner" />
 
+		<!-- Tombol Connect pakai ImageButton -->
 		<ImageButton
 			android:id="@+id/textview_connect"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:clickable="true"
-			android:layout_marginTop="16dp"
-			android:paddingVertical="12dp"
+			android:layout_width="150dp"
+			android:layout_height="60dp"
+			android:background="@null"
 			android:src="@drawable/btn_connect"
 			android:scaleType="fitCenter"
-			android:background="@null"/>
-
+			android:adjustViewBounds="true"
+			android:contentDescription="@string/btConnect"
+			android:clickable="true" />
 	</LinearLayout>
 
 	<!-- Logo di bawah tengah -->
@@ -173,7 +127,7 @@
 		android:layout_alignParentBottom="true"
 		android:layout_centerHorizontal="true"
 		android:layout_marginBottom="0dp"
-		android:scaleType="fitCenter"
 		android:adjustViewBounds="true"
+		android:scaleType="fitCenter"
 		android:src="@drawable/logo_tip" />
 </RelativeLayout>

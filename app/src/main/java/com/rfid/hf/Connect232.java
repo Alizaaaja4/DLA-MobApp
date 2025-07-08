@@ -26,6 +26,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TableRow;
@@ -35,7 +36,7 @@ public class Connect232 extends AppCompatActivity {
 
 	private static final String TAG = "COONECTRS232";
 	private static final boolean DEBUG = true;
-	private TextView mConectButton;
+	private ImageButton mConectButton;
 
     private String strIP;
     private String strPort;
@@ -60,11 +61,24 @@ public class Connect232 extends AppCompatActivity {
 		//intent = new Intent(this,MyService.class);
 		//startService(intent);
 		setContentView(R.layout.activity_connect232);
+
+		// Tombol back
+		ImageButton btnBack = findViewById(R.id.btn_back);
+		btnBack.setOnClickListener(v -> {
+			Intent intent = new Intent(Connect232.this, MenuActivity.class);
+			startActivity(intent);
+			finish();
+		});
+
 		getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
 		
 		spType = (Spinner)findViewById(R.id.comtype_spinner);
-		ArrayAdapter<CharSequence> adapter =  ArrayAdapter.createFromResource(this, R.array.comtype_spinner, android.R.layout.simple_spinner_item);
+		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+				this,
+				R.array.comtype_spinner,
+				R.layout.spinner_item
+		);
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		spType.setAdapter(adapter); 
 		spType.setSelection(0, true);
@@ -72,7 +86,7 @@ public class Connect232 extends AppCompatActivity {
 		
 		devname[0]="/dev/ttyHSL0";
 		spCom = (Spinner)findViewById(R.id.rs232_spinner);
-		ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,devname);
+		ArrayAdapter<String> adapter1 = new ArrayAdapter<>(this, R.layout.spinner_item, devname);
 		adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		spCom.setAdapter(adapter1); 
 		spCom.setSelection(0, true);
@@ -81,13 +95,13 @@ public class Connect232 extends AppCompatActivity {
 		
 		BaudRate[0]="19200";
 		spBaud = (Spinner)findViewById(R.id.baud_spinner);
-		ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,BaudRate);
+		ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this, R.layout.spinner_item, BaudRate);
 		adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		spBaud.setAdapter(adapter2); 
 		spBaud.setSelection(0, true);
 		spBaud.setOnItemSelectedListener(new ComOnItemSelectedListener());
 		
-		mConectButton = (TextView) findViewById(R.id.textview_connect);
+		mConectButton = (ImageButton) findViewById(R.id.textview_connect);
 		mConectButton.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {

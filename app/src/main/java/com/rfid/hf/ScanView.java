@@ -26,6 +26,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -34,11 +35,11 @@ import android.widget.AdapterView.OnItemSelectedListener;
 
 public class ScanView extends Activity implements OnClickListener,OnItemSelectedListener{
 	
-	private TextView bGet;
+	private ImageButton bGet;
 
 	private EditText tvVersion;
-	private TextView bSetPwr;
-	private TextView bGetPwr;
+	private ImageButton bSetPwr;
+	private ImageButton bGetPwr;
 
 	private Handler mHandler;
 	
@@ -113,7 +114,7 @@ public class ScanView extends Activity implements OnClickListener,OnItemSelected
 
 		tvVersion = (EditText)findViewById(R.id.version_text);
 
-		bGet = (TextView)findViewById(R.id.getversion);	
+		bGet = (ImageButton)findViewById(R.id.getversion);
 		bGet.setOnClickListener(this);
 
 		String[]PowerArr = new String[6];
@@ -129,10 +130,10 @@ public class ScanView extends Activity implements OnClickListener,OnItemSelected
 		spPower.setAdapter(adapter2);
 		spPower.setSelection(0, true);
 
-		bSetPwr = (TextView)findViewById(R.id.setpower);
+		bSetPwr = (ImageButton)findViewById(R.id.setpower);
 		bSetPwr.setOnClickListener(this);
 
-		bGetPwr = (TextView)findViewById(R.id.getpower);
+		bGetPwr = (ImageButton)findViewById(R.id.getpower);
 		bGetPwr.setOnClickListener(this);
 
 	}

@@ -7,13 +7,17 @@
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background.xml" value="0.17552083333333332" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background_select.xml" value="0.1" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background_select_left.xml" value="0.17552083333333332" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background_select_left_down.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background_select_right.xml" value="0.17552083333333332" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/btn_select_background_select_right_down.xml" value="0.17552083333333332" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/button_background.xml" value="0.1515625" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/button_disenabled_background.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/button_press_background.xml" value="0.19166666666666668" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/button_selector.xml" value="0.19166666666666668" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/check_button_selector.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/color_button_background.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/color_button_selector.xml" value="0.1515625" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/editbox_background.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/gradient_bg.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/list_bg.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/list_bg_selector.xml" value="0.19166666666666668" />
@@ -23,6 +27,7 @@
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/readonly_editbox_background.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_bottom.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_bottom_select.xml" value="0.3619791666666667" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_bottom_selector.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_middle_select.xml" value="0.1515625" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_press_select.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_press_selector.xml" value="0.3619791666666667" />
@@ -30,6 +35,7 @@
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_top_select.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/table_item_top_selector.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable-hdpi/title_button_selector.xml" value="0.19166666666666668" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable/bg_spinner.xml" value="0.19166666666666668" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/drawable/pin_box_bg.xml" value="0.3619791666666667" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/activity_connect232.xml" value="0.2390625" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/activity_help_guide.xml" value="0.1" />
@@ -43,7 +49,8 @@
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/listinfo_items.xml" value="0.22" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/listtag_items.xml" value="0.1526268115942029" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/query.xml" value="0.3333333333333333" />
-        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/scan_view.xml" value="0.16666666666666666" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/scan_view.xml" value="0.22" />
+        <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/layout/spinner_item.xml" value="0.17552083333333332" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/menu/activity_mainsad.xml" value="0.3333333333333333" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/menu/connect232.xml" value="0.22" />
         <entry key="..\:/Telecom Infra Project Lab/RFIDDemo(0.5W) - 20230302(keypress)/app/src/main/res/menu/main.xml" value="0.13541666666666666" />

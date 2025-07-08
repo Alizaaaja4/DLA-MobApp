@@ -673,6 +673,7 @@ drawable bg_main
 drawable bg_main_main
 drawable bg_menu
 drawable bg_sign_in
+drawable bg_spinner
 drawable bg_welcome_screen
 drawable btn_0
 drawable btn_1
@@ -911,7 +912,6 @@ id inventorylist_title
 id invisible
 id italic
 id layout_pin_boxes
-id layout_tcp
 id left
 id line1
 id line3
@@ -940,6 +940,8 @@ id pin_box_2
 id pin_box_3
 id pin_box_4
 id pin_box_5
+id power_buttons
+id power_label
 id progress_circular
 id progress_horizontal
 id radio
@@ -982,6 +984,7 @@ id standard
 id start
 id submenuarrow
 id submit_area
+id subtitle_text
 id tabMode
 id tab_inventory
 id tag_transition_group
@@ -1002,6 +1005,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text
 id top
 id topPanel
 id tv_Uid
@@ -1015,6 +1019,8 @@ id uid_spinner
 id uniform
 id up
 id useLogo
+id version_form
+id version_label
 id version_text
 id withText
 id wrap
@@ -1074,6 +1080,7 @@ layout scan_view
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout spinner_item
 layout support_simple_spinner_dropdown_item
 menu activity_mainsad
 menu connect232

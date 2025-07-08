@@ -132,6 +132,10 @@
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_select_background_select.xml"
     },
     {
+        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\raw_scan_new.ogg.flat",
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\raw\\scan_new.ogg"
     },
@@ -374,6 +378,10 @@
     {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_3.png.flat",
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_3.png"
+    },
+    {
+        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_spinner.xml.flat",
+        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable\\bg_spinner.xml"
     },
     {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_table_item_press_selector.xml.flat",
