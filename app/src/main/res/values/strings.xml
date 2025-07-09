@@ -162,4 +162,12 @@
     <string name="slogan_help_guide">Learn how to use the features easily</string>
     <string name="sub_tittle_help_guide">User Guide and Feature Instructions</string>
 
+    <string name="stock_opname">Stock Opname</string>
+    <string name="slogan_stock_opname">Check book availability by scanning RFID tags</string>
+    <string name="sub_tittle_stock_opname">Scanned Book List</string>
+
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="slogan_generate_barcode">Create a barcode from book title or serial number.</string>
+    <string name="tab_generate_barcode">GENERATE BARCODE</string>
+    <string name="tab_searching_book">SEARCHING BOOK</string>
 </resources>

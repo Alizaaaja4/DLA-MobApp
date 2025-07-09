@@ -102,11 +102,14 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 			setContentView(R.layout.query);	
 			mCurIvtClist = new ArrayList<HashMap<String, String>>();
 			mnewIvtClist = new ArrayList<HashMap<String, String>>();
-			adapterTaglist = new SimpleAdapter(ScanMode.this, mCurIvtClist, R.layout.listtag_items,
-					new String[] { "tagid","tagUid"},
-					new int[] { R.id.tv_id,R.id.tv_Uid});
+			adapterTaglist = new SimpleAdapter(
+					this,
+					mCurIvtClist,
+					R.layout.listtag_items,
+					new String[] { "tagid", "tagUid", "tagDecode" },
+					new int[] { R.id.tv_id, R.id.tv_Uid, R.id.tv_decode }
+			);
 
-			
 			txNum = (TextView)findViewById(R.id.textNumber);
 			txTime = (TextView)findViewById(R.id.textTime);
 			txCount = (TextView)findViewById(R.id.textCount);
@@ -147,28 +150,63 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 							mCurIvtClist.clear();;
 							break;
 						case MSG_UPDATE_ADD:
+							if (isCanceled) return;
 
-							if(isCanceled) return;
-							String temp = msg.obj+"";
-							String[]uidtemp = temp.split(",");
+							String temp = msg.obj + "";
+							String[] uidtemp = temp.split(",");
+							Log.d("RFID_UID", "Scanned UID: " + uidtemp[1]);
+
 							HashMap<String, String> temps = new HashMap<String, String>();
 							temps.put("tagUid", uidtemp[1]);
-							int index = checkIsExist(uidtemp[1],mCurIvtClist);
-							if(index==-1)//不存在
-							{
-								temps.put("tagid",(mCurIvtClist.size()+1)+"");
+							temps.put("tagDecode", "Loading...");
+
+							int index = checkIsExist(uidtemp[1], mCurIvtClist);
+							if (index == -1) {
+								temps.put("tagid", (mCurIvtClist.size() + 1) + "");
 								mCurIvtClist.add(temps);
 								Number = mCurIvtClist.size();
+
+								// 🔗 Call API setelah ditambahkan
+								LibraryApiHelper.getBookByUID(Util.privateKey, uidtemp[1], new LibraryApiHelper.BookCallback() {
+									@Override
+									public void onSuccess(final String title, final boolean rentable) {
+										if (!ScanMode.this.isFinishing()) {
+											runOnUiThread(new Runnable() {
+												@Override
+												public void run() {
+													temps.put("tagDecode", title);
+													adapterTaglist.notifyDataSetChanged();
+												}
+											});
+										}
+									}
+
+									@Override
+									public void onFailure(final String message) {
+										if (!ScanMode.this.isFinishing()) {
+											runOnUiThread(new Runnable() {
+												@Override
+												public void run() {
+													temps.put("tagDecode", "Tidak ditemukan");
+													adapterTaglist.notifyDataSetChanged();
+												}
+											});
+										}
+									}
+								});
+
 							}
+
 							listView.setAdapter(adapterTaglist);
 							adapterTaglist.notifyDataSetChanged();
 							txCount.setText(String.valueOf(Count));
-							if(ScanTime!=0) {
+
+							if (ScanTime != 0) {
 								txTime.setText(String.valueOf(ScanTime));
 								txNum.setText(String.valueOf(Number));
 							}
 							break;
-					default:
+						default:
 						break;
 					}
 					super.handleMessage(msg);
@@ -180,6 +218,16 @@ public class ScanMode extends Activity implements OnClickListener, OnItemClickLi
 		{
 			
 		}
+	}
+
+	private String decodeUID(String uid) {
+		Map<String, String> map = new HashMap<>();
+		map.put("E2 04 93 7B", "Barang A");
+		map.put("45 22 AA 1F", "Barang B");
+		map.put("11 22 33 44", "Barang C");
+
+		String value = map.get(uid.toUpperCase());
+		return (value != null) ? value : "Tidak dikenal";
 	}
 	
 	@Override

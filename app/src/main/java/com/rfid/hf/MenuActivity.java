@@ -10,6 +10,8 @@ import android.widget.ImageButton;
 public class MenuActivity extends AppCompatActivity {
     private ImageButton getStartedNotif;
     private ImageButton getSrartedRFIDScan;
+    private ImageButton getStartedStockOpname;
+    private ImageButton getStartedGenerateCode;
     private ImageButton getStartedHelpGuide;
 
     @Override
@@ -19,6 +21,8 @@ public class MenuActivity extends AppCompatActivity {
 
         getStartedNotif = findViewById(R.id.btn_notif);
         getSrartedRFIDScan = findViewById(R.id.btn_rfid_scan);
+        getStartedStockOpname = findViewById(R.id.btn_stock_opname);
+        getStartedGenerateCode = findViewById(R.id.btn_generate_code);
         getStartedHelpGuide = findViewById(R.id.btn_help_guid);
 
         getStartedNotif.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +47,24 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this, Connect232.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        getStartedStockOpname.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, Stock_Opname.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        getStartedGenerateCode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, Generate_Code.class);
                 startActivity(intent);
                 finish();
             }

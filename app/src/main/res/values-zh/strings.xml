@@ -161,4 +161,12 @@
     <string name="slogan_help_guide">轻松学习如何使用这些功能</string>
     <string name="sub_tittle_help_guide">用户指南和功能说明</string>
 
+    <string name="stock_opname">库存盘点</string>
+    <string name="slogan_stock_opname">通过扫描 RFID 标签检查图书可用性</string>
+    <string name="sub_tittle_stock_opname">已扫描图书列表</string>
+
+    <string name="generate_barcode">生成条形码</string>
+    <string name="slogan_generate_barcode">根据书名或序列号创建条形码。</string>
+    <string name="tab_generate_barcode">生成条形码</string>
+    <string name="tab_searching_book">搜索图书</string>
 </resources>

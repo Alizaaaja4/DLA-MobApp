@@ -75,6 +75,16 @@
             android:name="com.rfid.hf.MainHFActivity"
             android:exported="true" />
 
+        <!-- Menu Stock Opname -->
+        <activity
+            android:name="com.rfid.hf.Stock_Opname"
+            android:exported="true" />
+
+        <!-- Menu Generate Code -->
+        <activity
+            android:name="com.rfid.hf.Generate_Code"
+            android:exported="true" />
+
         <!-- Activity lainnya -->
         <activity
             android:name="com.rfid.hf.Connect232"

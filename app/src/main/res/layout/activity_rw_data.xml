@@ -201,7 +201,7 @@
 			<ImageButton
 				android:id="@+id/button_setpwd"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_set_password"
@@ -213,7 +213,7 @@
 			<ImageButton
 				android:id="@+id/button_writepwd"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_write_password"
@@ -234,7 +234,7 @@
 			<ImageButton
 				android:id="@+id/button_protect_AFI"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_protect_afi"
@@ -246,7 +246,7 @@
 			<ImageButton
 				android:id="@+id/button_protect_EAS"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_protect_eas"
@@ -276,7 +276,7 @@
 			<ImageButton
 				android:id="@+id/button_writeafi"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_set_afi"
@@ -288,7 +288,7 @@
 			<ImageButton
 				android:id="@+id/button_readafi"
 				android:layout_width="0dp"
-				android:layout_height="45dp"
+				android:layout_height="50dp"
 				android:layout_weight="1"
 				android:layout_margin="6dp"
 				android:src="@drawable/btn_read_afi"

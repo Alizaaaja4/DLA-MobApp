@@ -319,8 +319,6 @@ public class ReaderBase {
 		return 0x30;
 	}
 	
-
-	
 	public int ResetToReady(byte state,byte[]uid,byte[] Errorcode)
 	{
 		byte[]buffer = new byte[14];
@@ -1395,6 +1393,4 @@ public class ReaderBase {
         }*/
         return fCmdRet;
 	}
-
 }
-

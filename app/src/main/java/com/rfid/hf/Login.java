@@ -68,7 +68,7 @@ public class Login extends AppCompatActivity {
     private void updatePinBoxes() {
         for (int i = 0; i < pinBoxes.length; i++) {
             if (i < enteredPin.size()) {
-                pinBoxes[i].setText("•");
+                pinBoxes[i].setText("*");
             } else {
                 pinBoxes[i].setText("");
             }
@@ -82,12 +82,14 @@ public class Login extends AppCompatActivity {
         }
 
         if (pinBuilder.toString().equals(CORRECT_PIN)) {
+            // ⏩ SET PRIVATE KEY SEMENTARA DI SINI
+            Util.privateKey = "86gp22peg0EG9qKzhuPyNTIfqo1RvBA";
+
             // PIN benar → pindah ke MenuActivity
             Intent intent = new Intent(Login.this, MenuActivity.class);
             startActivity(intent);
             finish();
         } else {
-            // PIN salah → reset
             Toast.makeText(this, "PIN salah, coba lagi", Toast.LENGTH_SHORT).show();
             enteredPin.clear();
             updatePinBoxes();

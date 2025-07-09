@@ -43,8 +43,6 @@ public class ScanView extends Activity implements OnClickListener,OnItemSelected
 
 	private Handler mHandler;
 	
-
-	
 	private static final String TAG = "SacnView";
 	
 	private static final int MSG_SHOW_PROPERTIES = 0;
