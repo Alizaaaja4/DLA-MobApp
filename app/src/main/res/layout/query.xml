@@ -8,6 +8,7 @@
     android:descendantFocusability="blocksDescendants"
     android:orientation="vertical" >
 
+    <!-- Tombol atas -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,6 +57,7 @@
 
     </LinearLayout>
 
+    <!-- Konten utama -->
     <LinearLayout
         android:id="@+id/list_inventory"
         android:layout_width="fill_parent"
@@ -63,6 +65,7 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+        <!-- Informasi count -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -113,26 +116,67 @@
                 android:textColor="#CD0000"
                 android:textStyle="bold"
                 android:text="0" />
-
         </LinearLayout>
+
+        <!-- Garis pemisah -->
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2dp"
             android:background="#676767"
-            android:orientation="vertical" >
-        </LinearLayout>
-        <include
-            android:id="@+id/inventorylist_title"
-            layout="@xml/inventorylist_tittle"
-            android:layout_marginTop="20dp"/>
+            android:orientation="vertical" />
 
+        <!-- Header kolom tabel (No, UID, Decode) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NO."
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="fill_parent"
+                android:background="#f9b68b" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="UID"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="fill_parent"
+                android:background="#f9b68b" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Decode"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <!-- Garis bawah header -->
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="2dp"
             android:background="#676767"
-            android:orientation="vertical" >
-        </LinearLayout>
+            android:orientation="vertical" />
 
+        <!-- ListView isi data -->
         <ListView
             android:id="@+id/list_inventory_record"
             android:layout_width="fill_parent"
@@ -145,9 +189,6 @@
             android:divider="#676767"
             android:dividerHeight="1.0dp"
             android:fadingEdge="none"
-            android:scrollbars="vertical" >
-        </ListView>
-
+            android:scrollbars="vertical" />
     </LinearLayout>
-
 </LinearLayout>

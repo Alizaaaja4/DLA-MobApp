@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class Login extends AppCompatActivity {
 
-    private final String CORRECT_PIN = "12345";
+    private final String CORRECT_PIN = "24034";
     private ArrayList<Integer> enteredPin = new ArrayList<>();
     private TextView[] pinBoxes;
 

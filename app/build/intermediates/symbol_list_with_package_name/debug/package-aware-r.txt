@@ -908,7 +908,6 @@ id ifRoom
 id image
 id img_logo
 id info
-id inventorylist_title
 id invisible
 id italic
 id layout_pin_boxes
@@ -1009,8 +1008,10 @@ id title_text
 id top
 id topPanel
 id tv_Uid
+id tv_decode
 id tv_id
 id tv_inventoryAnt
+id tv_inventoryDecode
 id tv_inventoryUid
 id tv_judul
 id tv_slogan

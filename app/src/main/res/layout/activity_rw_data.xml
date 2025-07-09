@@ -5,7 +5,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:padding="16dp"
-	android:background="#F9F9F9">
+	android:background="@color/soft_white">
 
 	<LinearLayout
 		android:layout_width="match_parent"
@@ -20,7 +20,7 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal"
 			android:weightSum="3"
-			android:layout_marginBottom="12dp">
+			android:layout_marginBottom="19dp">
 
 			<TextView
 				android:layout_width="0dp"
@@ -28,8 +28,7 @@
 				android:layout_weight="1"
 				android:text="Result:"
 				android:textStyle="bold"
-				android:gravity="end|center_vertical"
-				android:textSize="16sp" />
+				android:textSize="25sp" />
 
 			<TextView
 				android:id="@+id/rw_result"
@@ -37,8 +36,7 @@
 				android:layout_height="wrap_content"
 				android:layout_weight="2"
 				android:textColor="#cc0000"
-				android:textSize="16sp"
-				android:gravity="center" />
+				android:textSize="16sp" />
 		</LinearLayout>
 
 		<!-- UID -->
@@ -54,7 +52,6 @@
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
 				android:text="UID:"
-				android:gravity="end|center_vertical"
 				android:paddingEnd="8dp" />
 
 			<Spinner
@@ -77,7 +74,6 @@
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
 				android:text="Type:"
-				android:gravity="end|center_vertical"
 				android:paddingEnd="8dp" />
 
 			<Spinner
@@ -98,18 +94,18 @@
 			<EditText
 				android:id="@+id/et_wordptr"
 				android:layout_width="0dp"
-				android:layout_height="40dp"
+				android:layout_height="35dp"
 				android:layout_weight="3"
 				android:inputType="number"
-				android:hint="Block(Dec)" />
+				android:hint="Block(D)" />
 
 			<EditText
 				android:id="@+id/et_num"
 				android:layout_width="0dp"
-				android:layout_height="40dp"
+				android:layout_height="35dp"
 				android:layout_weight="3"
 				android:inputType="number"
-				android:hint="Block length(Dec)"
+				android:hint="Block length(D)"
 				android:layout_marginStart="8dp"/>
 		</LinearLayout>
 
@@ -124,17 +120,17 @@
 			<EditText
 				android:id="@+id/et_content"
 				android:layout_width="0dp"
-				android:layout_height="40dp"
+				android:layout_height="35dp"
 				android:layout_weight="3"
-				android:hint="Write Data (Hex)"
+				android:hint="Write Data (H)"
 				android:inputType="text" />
 
 			<EditText
 				android:id="@+id/et_read"
 				android:layout_width="0dp"
-				android:layout_height="40dp"
+				android:layout_height="35dp"
 				android:layout_weight="3"
-				android:hint="Read Data (Hex)"
+				android:hint="Read Data (H)"
 				android:layout_marginStart="8dp"
 				android:inputType="text" />
 		</LinearLayout>
@@ -145,42 +141,52 @@
 			android:layout_height="wrap_content"
 			android:orientation="horizontal"
 			android:weightSum="3"
-			android:layout_marginBottom="10dp">
+			android:gravity="center"
+			android:layout_marginBottom="3dp">
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_read"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="Read Block"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_read_block"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_write"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="Write Block"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_write_block"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_readmul"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="Read Blocks"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_read_blocks"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 		</LinearLayout>
 
 		<!-- Password -->
 		<EditText
 			android:id="@+id/et_pwd"
 			android:layout_width="match_parent"
-			android:layout_height="40dp"
-			android:hint="Password (Hex)"
+			android:layout_height="35dp"
+			android:hint="Password (H)"
 			android:layout_marginBottom="10dp"
 			android:inputType="text" />
 
@@ -189,52 +195,73 @@
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:orientation="horizontal"
-			android:weightSum="4"
+			android:weightSum="2"
 			android:layout_marginBottom="10dp">
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_setpwd"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Set Password"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_set_password"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_writepwd"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Write Password"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_write_password"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="2"
+			android:layout_marginBottom="10dp">
+
+			<ImageButton
 				android:id="@+id/button_protect_AFI"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Protect AFI"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_protect_afi"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_protect_EAS"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Protect EAS"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_protect_eas"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 		</LinearLayout>
 
 		<!-- AFI Field -->
 		<EditText
 			android:id="@+id/et_AFI"
 			android:layout_width="match_parent"
-			android:layout_height="40dp"
-			android:hint="AFI (Hex)"
+			android:layout_height="35dp"
+			android:hint="AFI (H)"
 			android:layout_marginBottom="10dp"
 			android:inputType="text" />
 
@@ -246,23 +273,30 @@
 			android:weightSum="2"
 			android:layout_marginBottom="10dp">
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_writeafi"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Set AFI"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_set_afi"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_readafi"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="45dp"
 				android:layout_weight="1"
-				android:text="Read AFI"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_read_afi"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
+
 		</LinearLayout>
 
 		<!-- EAS Buttons -->
@@ -273,33 +307,54 @@
 			android:weightSum="3"
 			android:layout_marginBottom="10dp">
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_seteas"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="Set EAS"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_set_eas"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_reseteas"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="Reset EAS"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_reset_eas"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/button_detecteas"
 				android:layout_width="0dp"
-				android:layout_height="wrap_content"
+				android:layout_height="40dp"
 				android:layout_weight="1"
-				android:text="EAS Alarm"
-				android:layout_margin="4dp"
-				android:background="@drawable/color_button_selector" />
+				android:layout_margin="6dp"
+				android:src="@drawable/btn_eas_alarm"
+				android:background="@null"
+				android:scaleType="fitXY"
+				android:adjustViewBounds="true"
+				android:clickable="true" />
+
 		</LinearLayout>
 
+		<!-- Logo di bawah tengah -->
+		<ImageView
+			android:id="@+id/img_logo"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true"
+			android:layout_marginBottom="-20dp"
+			android:adjustViewBounds="true"
+			android:scaleType="fitCenter"
+			android:src="@drawable/logo_tip" />
 	</LinearLayout>
 </ScrollView>

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\xml_inventorylist_tittle.xml.flat",
-        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\xml\\inventorylist_tittle.xml"
-    },
-    {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_protect_eas.png.flat",
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_protect_eas.png"
+    },
+    {
+        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\xml_inventorylist_tittle.xml.flat",
+        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\xml\\inventorylist_tittle.xml"
     },
     {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_table_item_top_selector.xml.flat",
@@ -116,16 +116,16 @@
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\more_set_button.png"
     },
     {
-        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_color_button_selector.xml.flat",
-        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\color_button_selector.xml"
+        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_6.png.flat",
+        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_6.png"
     },
     {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_protect_afi.png.flat",
         "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_protect_afi.png"
     },
     {
-        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_6.png.flat",
-        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\btn_6.png"
+        "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_color_button_selector.xml.flat",
+        "source": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\src\\main\\res\\drawable-hdpi\\color_button_selector.xml"
     },
     {
         "merged": "D:\\Telecom Infra Project Lab\\RFIDDemo(0.5W) - 20230302(keypress)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_select_background_select.xml.flat",

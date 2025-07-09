@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,24 +33,24 @@ public class RW_Activity extends Activity implements OnClickListener, OnItemSele
 	EditText tvstartblock; 
 	EditText tvblocknum; 
 	EditText tvwdata; 
-	EditText tvrdata; 
+	EditText tvrdata;
 
-	Button btReadSingle;
-	Button btReadMul;
-	Button btWriteSingle;
+	ImageButton btReadSingle;
+	ImageButton btReadMul;
+	ImageButton btWriteSingle;
 
 	EditText tvPwd;
 	EditText tvAFI;
 
-	Button btSetPwd;
-	Button btWritePwd;
-	Button btProtectAFI;
-	Button btProtectEAS;
-	Button btWriteAFI;
-	Button btReadAFI;
-	Button btSetEAS;
-	Button btReSetEAS;
-	Button btDetectEAS;
+	ImageButton btSetPwd;
+	ImageButton btWritePwd;
+	ImageButton btProtectAFI;
+	ImageButton btProtectEAS;
+	ImageButton btWriteAFI;
+	ImageButton btReadAFI;
+	ImageButton btSetEAS;
+	ImageButton btReSetEAS;
+	ImageButton btDetectEAS;
 
 	private static final int MSG_SHOW_RESULT = 0;
 	private static final int MSG_SHOW_DATA = 1;
@@ -121,18 +122,15 @@ public class RW_Activity extends Activity implements OnClickListener, OnItemSele
 		tvResult = (TextView)findViewById(R.id.rw_result);	
 
 		
-		btReadSingle = (Button)findViewById(R.id.button_read);	
-		btReadMul = (Button)findViewById(R.id.button_readmul);	
-		btWriteSingle = (Button)findViewById(R.id.button_write);
+		btReadSingle = (ImageButton)findViewById(R.id.button_read);
+		btReadMul = (ImageButton)findViewById(R.id.button_readmul);
+		btWriteSingle = (ImageButton)findViewById(R.id.button_write);
 
 		
 		btReadSingle.setOnClickListener(this);
 		btReadMul.setOnClickListener(this);
 		btWriteSingle.setOnClickListener(this);
 
-		
-
-		
 		sptype = (Spinner)findViewById(R.id.mtype_spinner);
 		ArrayAdapter<CharSequence> adapter1 =  ArrayAdapter.createFromResource(this, R.array.type_spinner, android.R.layout.simple_spinner_item);
 		adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -144,15 +142,15 @@ public class RW_Activity extends Activity implements OnClickListener, OnItemSele
 		tvPwd = (EditText)findViewById(R.id.et_pwd);
 		tvAFI = (EditText)findViewById(R.id.et_AFI);
 
-		btSetPwd = (Button)findViewById(R.id.button_setpwd);
-		btWritePwd = (Button)findViewById(R.id.button_writepwd);
-		btProtectAFI = (Button)findViewById(R.id.button_protect_AFI);
-		btProtectEAS = (Button)findViewById(R.id.button_protect_EAS);
-		btWriteAFI = (Button)findViewById(R.id.button_writeafi);
-		btReadAFI = (Button)findViewById(R.id.button_readafi);
-		btSetEAS = (Button)findViewById(R.id.button_seteas);
-		btReSetEAS = (Button)findViewById(R.id.button_reseteas);
-		btDetectEAS = (Button)findViewById(R.id.button_detecteas);
+		btSetPwd = (ImageButton)findViewById(R.id.button_setpwd);
+		btWritePwd = (ImageButton)findViewById(R.id.button_writepwd);
+		btProtectAFI = (ImageButton)findViewById(R.id.button_protect_AFI);
+		btProtectEAS = (ImageButton)findViewById(R.id.button_protect_EAS);
+		btWriteAFI = (ImageButton)findViewById(R.id.button_writeafi);
+		btReadAFI = (ImageButton)findViewById(R.id.button_readafi);
+		btSetEAS = (ImageButton)findViewById(R.id.button_seteas);
+		btReSetEAS = (ImageButton)findViewById(R.id.button_reseteas);
+		btDetectEAS = (ImageButton)findViewById(R.id.button_detecteas);
 		btSetPwd.setOnClickListener(this);
 		btWritePwd.setOnClickListener(this);
 		btProtectAFI.setOnClickListener(this);

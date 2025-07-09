@@ -32,5 +32,17 @@
         android:layout_height="fill_parent"
         android:background="#f9b68b" />
 
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="fill_parent"
+        android:background="#f9b68b" />
+
+    <TextView
+        android:id="@+id/tv_inventoryDecode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Decode" />
 
 </LinearLayout>

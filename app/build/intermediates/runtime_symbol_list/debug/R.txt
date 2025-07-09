@@ -907,7 +907,6 @@ int id ifRoom 0x7f080079
 int id image 0x7f08007a
 int id img_logo 0x7f08007b
 int id info 0x7f08007c
-int id inventorylist_title 0x7f08007d
 int id invisible 0x7f08007e
 int id italic 0x7f08007f
 int id layout_pin_boxes 0x7f080080
@@ -1008,8 +1007,10 @@ int id title_text 0x7f0800dc
 int id top 0x7f0800dd
 int id topPanel 0x7f0800de
 int id tv_Uid 0x7f0800df
+int id tv_decode 0x7f0800f2
 int id tv_id 0x7f0800e0
 int id tv_inventoryAnt 0x7f0800e1
+int id tv_inventoryDecode 0x7f0800f3
 int id tv_inventoryUid 0x7f0800e2
 int id tv_judul 0x7f0800e3
 int id tv_slogan 0x7f0800e4

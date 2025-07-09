@@ -2,36 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal" 
+    android:orientation="horizontal"
     android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp">
+    android:layout_marginRight="5dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
 
+    <!-- Kolom NO -->
     <TextView
         android:id="@+id/tv_id"
-        android:layout_width="0dip"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="center_vertical|center"
-        android:text=""/>
-
-    <View
-        android:layout_width="1.5dip"
-        android:layout_height="fill_parent"
-        android:background="#A6A6A6" />
-
-    <TextView
-        android:id="@+id/tv_Uid"
-        android:layout_width="0dip"
-        android:layout_height="wrap_content"
-        android:layout_weight="5"
-        android:gravity="center_vertical|center"
+        android:gravity="center"
         android:text="" />
 
     <View
-        android:layout_width="1.5dip"
+        android:layout_width="1.5dp"
         android:layout_height="fill_parent"
         android:background="#A6A6A6" />
 
+    <!-- Kolom UID -->
+    <TextView
+        android:id="@+id/tv_Uid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="" />
 
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="fill_parent"
+        android:background="#A6A6A6" />
 
+    <!--  Kolom Decode -->
+    <TextView
+        android:id="@+id/tv_decode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="" />
+
+    <View
+        android:layout_width="1.5dp"
+        android:layout_height="fill_parent"
+        android:background="#A6A6A6" />
 </LinearLayout>
